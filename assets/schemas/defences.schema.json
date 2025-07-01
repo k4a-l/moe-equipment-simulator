@@ -1,0 +1,208 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "number"
+      },
+      "name": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "specials": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "buff": {
+        "type": "string"
+      },
+      "effects": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "subject": {
+              "type": "string",
+              "enum": [
+                "最大HP",
+                "最大MP",
+                "最大ST",
+                "攻撃力",
+                "防御力",
+                "回避",
+                "魔力",
+                "命中",
+                "移動速度",
+                "魔法ディレイ",
+                "攻撃ディレイ",
+                "クリティカル率",
+                "耐火属性",
+                "耐水属性",
+                "耐地属性",
+                "耐風属性",
+                "耐無属性",
+                "SEEING",
+                "HEARING",
+                "SMELLING",
+                "最大重量",
+                "BREATH",
+                "料理ゲージ滑り",
+                "料理ゲージ速度",
+                "料理ヒットゾーン",
+                "料理グレードゾーン",
+                "複製ゲージ滑り",
+                "複製ゲージ速度",
+                "複製ヒットゾーン",
+                "複製グレードゾーン",
+                "美容ゲージ滑り",
+                "美容ゲージ速度",
+                "美容ヒットゾーン",
+                "美容グレードゾーン",
+                "キック命中率補正",
+                "キック攻撃力補正",
+                "釣りゲージ速度",
+                "釣りヒットゾーン",
+                "釣りゲージ長",
+                "醸造ゲージ滑り",
+                "醸造ゲージ速度",
+                "醸造ヒットゾーン",
+                "醸造グレードゾーン",
+                "裁縫ゲージ滑り",
+                "裁縫ゲージ速度",
+                "裁縫ヒットゾーン",
+                "裁縫グレードゾーン",
+                "大工ゲージ滑り",
+                "大工ゲージ速度",
+                "大工ヒットゾーン",
+                "大工グレードゾーン",
+                "薬調合ゲージ滑り",
+                "薬調合ゲージ速度",
+                "薬調合ヒットゾーン",
+                "薬調合グレードゾーン",
+                "装飾細工ゲージ滑り",
+                "装飾細工ゲージ速度",
+                "装飾細工ヒットゾーン",
+                "装飾細工グレードゾーン",
+                "鍛冶ゲージ滑り",
+                "鍛冶ゲージ速度",
+                "鍛冶ヒットゾーン",
+                "鍛冶グレードゾーン",
+                "泳ぎ速度",
+                "牙命中率補正",
+                "栽培ゲージ速度",
+                "盗み補正",
+                "潤喉度",
+                "満腹度"
+              ]
+            },
+            "value": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "subject",
+            "value"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "genderAvailable": {
+        "type": "string",
+        "enum": [
+          "男",
+          "女",
+          "ALL"
+        ]
+      },
+      "tribeAvailable": {
+        "type": "string",
+        "enum": [
+          "パンデモス",
+          "ニューター",
+          "エルモニー",
+          "コグニート",
+          "ALL"
+        ]
+      },
+      "shipAvailable": {
+        "type": "string"
+      },
+      "type": {
+        "type": "string",
+        "const": "defences"
+      },
+      "part": {
+        "anyOf": [
+          {
+            "type": "string",
+            "enum": [
+              "頭（防）",
+              "胴（防）",
+              "手（防）",
+              "腰（防）",
+              "肩（防）",
+              "パンツ（防）",
+              "靴（防）"
+            ]
+          },
+          {
+            "type": "string",
+            "enum": [
+              "頭（装）",
+              "顔（装）",
+              "耳（装）",
+              "指（装）",
+              "胸（装）",
+              "背中（装）",
+              "腰（装）"
+            ]
+          }
+        ]
+      },
+      "armorClass": {
+        "type": "number"
+      },
+      "skills": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "weapon": {
+              "type": "string",
+              "const": "着こなし"
+            },
+            "value": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "weapon",
+            "value"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "required": [
+      "id",
+      "name",
+      "description",
+      "specials",
+      "effects",
+      "genderAvailable",
+      "tribeAvailable",
+      "shipAvailable",
+      "type",
+      "part",
+      "armorClass",
+      "skills"
+    ],
+    "additionalProperties": false
+  }
+}
