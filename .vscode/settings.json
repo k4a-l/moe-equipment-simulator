@@ -1,0 +1,51 @@
+{
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "biomejs.biome",
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "never",
+        "quickfix.biome": "explicit",
+        "source.organizeImports.biome": "explicit",
+        "source.removeUnusedImports": "never"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "editor.codeLens": true,
+    "typescript.referencesCodeLens.enabled": true,
+    "cSpell.words": [
+        "Defence",
+        "defences"
+    ],
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "assets/shields.json"
+            ],
+            "url": "./assets/schemas/shields.schema.json"
+        },
+        {
+            "fileMatch": [
+                "assets/weapons.json"
+            ],
+            "url": "./assets/schemas/weapons.schema.json"
+        },
+        {
+            "fileMatch": [
+                "assets/defences.json"
+            ],
+            "url": "./assets/schemas/defences.schema.json"
+        },
+        {
+            "fileMatch": [
+                "assets/buffs.json"
+            ],
+            "url": "./assets/schemas/buffs.schema.json"
+        }
+    ]
+}
