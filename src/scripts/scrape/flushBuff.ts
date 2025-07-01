@@ -5,8 +5,9 @@ import {
 	readWeaponFile,
 	writeJson,
 } from "@/scripts/scrape/readWrite";
-import type { Buff } from "@/types/Item";
+import type { Buff } from "@/types/buff";
 
+// 装備ファイルからバフを抽出し、存在しないバフを追加するスクリプト
 async function main() {
 	const existsBuffs = readBuffFile();
 
