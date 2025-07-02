@@ -12,18 +12,21 @@
 		"validate:json": "jsonschema validate assets/schemas/shields.schema.json assets/shields.json && jsonschema validate assets/schemas/weapons.schema.json assets/weapons.json && jsonschema validate assets/schemas/defences.schema.json assets/defences.json"
 	},
 	"dependencies": {
-		"@mantine/core": "^8.1.2",
-		"@mantine/hooks": "^8.1.2",
+		"@radix-ui/react-slot": "^1.2.3",
+		"class-variance-authority": "^0.7.1",
+		"clsx": "^2.1.1",
+		"lucide-react": "^0.525.0",
 		"next": "15.3.4",
 		"react": "^19.0.0",
 		"react-dom": "^19.0.0",
+		"tailwind-merge": "^3.3.1",
 		"uninstall": "^0.0.0",
 		"zod": "^3.25.67"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.0.6",
 		"@sourcemeta/jsonschema": "^9.6.0",
-		"@tailwindcss/postcss": "^4",
+		"@tailwindcss/postcss": "^4.1.11",
 		"@types/node": "^20",
 		"@types/react": "^19",
 		"@types/react-dom": "^19",
@@ -31,11 +34,12 @@
 		"jsonschema": "^1.5.0",
 		"playwright": "^1.53.2",
 		"postcss": "^8.5.6",
-		"postcss-preset-mantine": "^1.18.0",
 		"postcss-simple-vars": "^7.0.1",
-		"tailwindcss": "^4",
+		"tailwindcss": "^4.1.11",
+		"tailwindcss-animate": "^1.0.7",
 		"ts-essentials": "^10.1.1",
 		"tsx": "^4.20.3",
+		"tw-animate-css": "^1.3.4",
 		"typescript": "^5",
 		"zod-to-json-schema": "^3.24.6"
 	}
