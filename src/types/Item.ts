@@ -1,4 +1,5 @@
 import z from "zod";
+import type { Buff } from "./buff";
 
 // ------------------ 共通 ------------------ //
 
@@ -11,20 +12,33 @@ export const EQUIPMENT_TYPE = {
 export type EquipmentType =
 	(typeof EQUIPMENT_TYPE)[keyof typeof EQUIPMENT_TYPE];
 
-export const EFFECT_SUBJECTS = z.union([
+export const EFFECT_SUBJECTS = [
+	z.literal("攻撃力"),
+	z.literal("命中"),
+	z.literal("物理与ダメージ"),
+	z.literal("魔法ディレイ"),
+	z.literal("クリティカル率"),
+	z.literal("魔力"),
+	z.literal("攻撃ディレイ"),
 	z.literal("最大HP"),
 	z.literal("最大MP"),
 	z.literal("最大ST"),
-	z.literal("攻撃力"),
 	z.literal("防御力"),
 	z.literal("回避"),
-	z.literal("魔力"),
-	z.literal("回避"),
-	z.literal("命中"),
+	z.literal("破壊スキル"),
+	z.literal("神秘スキル"),
+	z.literal("強化スキル"),
+	z.literal("死魔スキル"),
+	z.literal("回復スキル"),
+	z.literal("火属性効果"),
+	z.literal("水属性効果"),
+	z.literal("土属性効果"),
+	z.literal("風属性効果"),
+	z.literal("無属性効果"),
+	z.literal("HP自然回復"),
+	z.literal("ST自然回復"),
+	z.literal("MP自然回復"),
 	z.literal("移動速度"),
-	z.literal("魔法ディレイ"),
-	z.literal("攻撃ディレイ"),
-	z.literal("クリティカル率"),
 	z.literal("耐火属性"),
 	z.literal("耐水属性"),
 	z.literal("耐地属性"),
@@ -85,11 +99,13 @@ export const EFFECT_SUBJECTS = z.union([
 	z.literal("満腹度"),
 	z.literal("ピッキング失敗回数補正"),
 	z.literal("ピッキング回転速度補正"),
-]);
+] as const;
 
-type EffectSubject = z.infer<typeof EFFECT_SUBJECTS>;
+export const effectSubjectSchema = z.union(EFFECT_SUBJECTS);
+
+type EffectSubject = z.infer<typeof effectSubjectSchema>;
 export const effectsSchema = z.object({
-	subject: EFFECT_SUBJECTS, // 効果対象
+	subject: effectSubjectSchema, // 効果対象
 	value: z.number(), // 効果値
 });
 
@@ -152,6 +168,10 @@ export const defenceItemSchema = ItemBaseSchema.merge(
 		),
 	}),
 );
+
+export type InjectBuff<T> = T extends ItemBase
+	? Omit<T, "buff"> & { buff?: Buff }
+	: T;
 
 export type DefenceItem = z.infer<typeof defenceItemSchema>;
 
