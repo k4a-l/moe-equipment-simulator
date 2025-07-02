@@ -9,6 +9,9 @@
           "name": {
             "type": "string"
           },
+          "description": {
+            "type": "string"
+          },
           "unedited": {
             "type": "boolean",
             "const": true
@@ -22,6 +25,7 @@
         },
         "required": [
           "name",
+          "description",
           "unedited"
         ],
         "additionalProperties": false
@@ -30,6 +34,9 @@
         "type": "object",
         "properties": {
           "name": {
+            "type": "string"
+          },
+          "description": {
             "type": "string"
           },
           "unedited": {
@@ -92,6 +99,7 @@
         },
         "required": [
           "name",
+          "description",
           "effects"
         ],
         "additionalProperties": false

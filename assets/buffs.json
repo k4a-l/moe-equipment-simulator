@@ -2,7382 +2,8858 @@
 	{
 		"name": "死神の鎌",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "急所突き",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "仕込み毒",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "灼熱の炎",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アイス ボール",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "衰弱",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "聖なる力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "電気ショック",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "必中の神槍",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "MPダメージ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "フィニッシュ ブロウ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "マイナー バースト",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "フリーズ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "サンダーボルト",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "カース Lv1",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ガトリング・キャロル",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "特殊効果：ナイフ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "特殊効果：グレート アックス",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "特殊効果：サイス",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "特殊効果：ダガー",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "特殊効果：ウォース ペイド",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "特殊効果：バトルフォーク",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "特殊効果：ショート ソード",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "特殊効果：シミター",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "特殊効果：ブロード ソード",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "特殊効果：ロング ソード",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "特殊効果：クレイモア",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "特殊効果：グレート ソード",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "特殊効果：ハチェット",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "特殊効果：ブロード アックス",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "特殊効果：バトル アックス",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "特殊効果：メイス",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "特殊効果：ウォー メイス",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "特殊効果：ウォー ハンマー",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "特殊効果：クリス",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "特殊効果：ランス",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "特殊効果：スピア",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "特殊効果：トライデント",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "特殊効果：ヘビーメイス",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "特殊効果：レイピア",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "特殊効果：ショートスピア",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "おもちゃのけん",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ボルケニック クロー",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "シューティングスター",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ガンナーの極意",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "フューネラル ブレイド",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "スタミナ吸収 Lv1",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "スタミナ吸収 Lv2",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "スタミナ吸収 Lv3",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "スタミナ吸収 Lv4",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "スタミナ変換 Lv1",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "スタミナ変換 Lv2",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "スタミナ変換 Lv3",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "スタミナ変換 Lv4",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔法詠唱速度UP",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "甘い香り",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "特殊効果：ナールド スタッフ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "特殊効果：コンポジット ボウ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "特殊効果：ドワーヴン ライフル",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "特殊効果：ナックル",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "束縛",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "闇の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "吸血",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ガトリング モード",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "炎の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "氷の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "風の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "地の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "光の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "沌の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "火傷",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "神の裁き",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "裂傷",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "マジカル ヒット",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アラウンド ウィンド",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "チャージ時間延長",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ジャッジメント サクション",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "雲散霧消",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "キャプチャー ネット",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "乱舞モード",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "肉球アタック",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "いたずらしちゃうぞ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "キノコ変化",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ガン・バスター スラッシュ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "トンファー アタック",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "命の炎",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "びっくりハンマー",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "マンドレイクの叫び",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "タイム サンド",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "水鉄砲",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ショックボルト",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔法射撃モード",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "MP変換",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "三点バースト",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "紫電",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "満腹度回復",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "満腹度UP",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "龍の牙",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "幻惑",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "鎧砕き",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "支配者の命令",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ソウルハント",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "建御雷",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "属性ダメージ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "HP吸収",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "追加射撃",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ショック",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "キャンドル ワックス",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "満腹度DOWN",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ヘイト上昇",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "桜花の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔法剣",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "神撃の一振り",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "☆USK☆",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "強く育って",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "熊猫の癒し",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "液体燃料",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "地母神の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "大司教",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "マナ フォース（翠）",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "マナ フォース（紅）",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "マナ フォース（蒼）",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ぺったんこ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "満腹度軽減 Lv2",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アヌビスの力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "黄昏の聖槍",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "光線銃",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "お金の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アルカナの力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "クラッカー",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ボルケーノ クラッシャー",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "炭火焼き",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "氷晶",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ヘスティア・ナイフ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "始高・煌月",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "騎心一槍",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "妖精王唱",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "闇の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "光の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ドライバー",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "モニコンの呪い",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "エイシスの青い天使さん",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "銃攻撃ディレイ短縮",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "海神の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "邪竜の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "クリティカル率UP A Lv1",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "クリティカル率UP B Lv1",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "炎の魔剣",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "一騎当千",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "纏雷",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "オルカン",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ドリュッケン",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "分解",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "直接ダメージ反射 Lv1",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "無病息災",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "フロート Lv1",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "フロート Lv2",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "フロート Lv3",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アイテム使用ディレイ短縮 Lv1",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アイテム使用ディレイ短縮 Lv2",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アイテム使用ディレイ短縮 Lv3",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "満腹・潤喉度軽減 Lv1",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "満腹・潤喉度軽減 Lv2",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "満腹・潤喉度軽減 Lv3",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "落下ダメージ軽減 Lv3",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ホワイト バンド",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "サブマリン モード",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ペネトレイト キック",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "モーション変化",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "クリティカル率UP A Lv2",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "クリティカル率UP A Lv3",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "クリティカル率UP B Lv2",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "クリティカル率UP B Lv3",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "カーミラ バット召喚",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "エンチャント ファイアー",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "エンチャント アイス",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "エンチャント サンダー",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ラビット ソウル PM",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ベア ソウル PM",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "パンダ ソウル PM",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "漆黒の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "風の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "竜の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "隠密の極意",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "恋はアクアブルー",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "クラフトマン ソウル",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "消費スタミナ軽減",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "Gスカルパス フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "フィッシュ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "心眼",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "幻影盾",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ウォーター チャージ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "諸行無常",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "呪文抵抗UP",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "解放の鍵",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "マナの加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "Total Protection Service",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ヴァイス",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ダメージ軽減",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔法のタンバリン",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アイドル モーション",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "傘を差す",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ロックンロール",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "土遁の術",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "マギア=パルマ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "コンダクター",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ランタン シールド",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "キンキン",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "再生",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ミュージック スタート！",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "攻防一体",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "節分枡",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ハーメルンの笛",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アイギスの盾",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "藁人形",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "風に揺られて",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アフタヌーン・ティー",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "川柳の効果",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "蒐集行使",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "大樹の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "潤喉度軽減 Lv1",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アンチマジック",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ハンググライダー",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "シュッツァー",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "風呂上がりの一杯",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "火神の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ボール キャリア",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "湧き上がる幸せ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "風精霊の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "スウィート ハート",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "妖精の光",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "採掘魂",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "大地の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "王の威厳",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "テイスティング",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "祭",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "薔薇のコンダクター",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "水神の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ノスタルジック カメラ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "行進曲",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "慈愛の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "チップソー",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "祝杯",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "白百合の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "翼の白杖",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ペインター",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "恵方",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "フレグランス",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "桃の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "黒魔術の書",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "火酒",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "牛乳を注ぐ人",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "時の魔法",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "蓮華の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "時の魔法(左)",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アルカナの加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "花束",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "給仕スタイル",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "使役の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ロードレーサー",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "氷魔の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "満腹度軽減 Lv3",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ヘリ脱出！",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "インプレグナブル ガード",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔力共鳴",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "反魔の匣",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "旋風の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ウラエウスの力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "愛の告白",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "天使の音色",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "自由落下でダイビング",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "エッグ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "仮面の呪い",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "サーチアイ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "物理反射 Lv1",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "オート リジェネ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "詠唱時間短縮",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "妖精の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "フック アタック",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "バジリスク フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ファンガス フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "重い気持ち",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "動きたくない魔力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "強靭な足腰",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "弓攻撃ディレイ短縮",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "指揮官の高揚",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "生野菜おいしい",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "励起する魂",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "潤喉度軽減 Lv2",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "オートマチック スラスター",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "地脈同化",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "陰陽術式召喚",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "サバティック スペル",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "馬突猛進",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "パラサイト ラフレシア",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "スペル サポート",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ガーゴイル フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "クラフトマン ハート",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "精神集中",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "邪気払い",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "行脚修行",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "滋養強壮",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "オシドリ夫婦",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "愛らしい瞳",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "占星術",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "動くな危険",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "急いでブレックファースト",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "カモフラージュ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "落下ダメージ軽減 Lv1",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "デドリーポイズン フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "サラマンダー フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "キラープラント フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "グリードル フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "エイ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "白チーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "赤チーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "青チーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "リラックス モード",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "採掘モード",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "大きな葉っぱ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ホーリー ベル",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ダーク ベル",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ファイアー ベル",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ウインド ベル",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アイス ベル",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アース ベル",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "カオス ベル",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "リズム マジック",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "バイキング アンカー",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "天使のサンダル",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "和御魂の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "クイックタイム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ちょっと休憩",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "治癒能力アップ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "MAGIC 3%UP",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "AGI 3%UP",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "巨人の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "MAXHP 3%UP",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "MAXMP 3%UP",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "RESIST FIRE 10%UP",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "RESIST WATER 10%UP",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "RESIST WIND 10%UP",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "RESIST EARTH 10%UP",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "MAXST 3%UP",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ハーモニカ エフェクト",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "バカンス タイム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "安全第一",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "チェロ エフェクト",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "幸運の守護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アブダクション",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "落下ダメージ軽減 Lv2",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ウイング エフェクト",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ボウガン アタック TypeA",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ボウガン アタック TypeB",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ボウガン アタック TypeC",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ラビット ソウル NM",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ラビット ソウル NF",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ラビット ソウル EM",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ラビット ソウル EF",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ラビット ソウル CM",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ラビット ソウル CF",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ラビット ソウル PF",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ベア ソウル NM",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ベア ソウル NF",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ベア ソウル EM",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ベア ソウル EF",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ベア ソウル CM",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ベア ソウル CF",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ベア ソウル PF",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "パンダ ソウル NM",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "パンダ ソウル NF",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "パンダ ソウル EM",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "パンダ ソウル EF",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "パンダ ソウル CM",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "パンダ ソウル CF",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "パンダ ソウル PF",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "紅葉タイム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "不老治癒の鞘",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "王の財宝",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ローズ エフェクト",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ブルーローズ エフェクト",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ハート エフェクト",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ビーク フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "桜エフェクト",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "かたつむり モーション",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "炎の鍵",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "メデュシアナ召喚",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "お掃除モード",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "氷の鍵",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "風の鍵",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "大地の鍵",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "光の鍵",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "闇の鍵",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "混沌の鍵",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ウッドルーツ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魅惑の腰振り",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "プカプカ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "合唱エフェクト",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "タヌキ変化",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "結界陣",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "パラサイト",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "サウンド スピーカー",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "サーチ ディスプレイ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "火牛のペンダント",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "スノーマン フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "スノー エフェクト",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "梅エフェクト",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アシスティブ デバイス",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "エンシェント オーラ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "エルンスト",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "オーラ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "シュヴァルツ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "邪神フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ブラック ライノー フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "サウザンド ドラゴン フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ボーイ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ガール フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "キマイラ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "フィニュ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔法少女 フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "エール",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アビス",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "月光",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔法の箒",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "空飛ぶ雲",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ビースト フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "氷の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "新春の輝き",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "踊り子の舞",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "重力制御",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "バタフライ エフェクト",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アドベント エンジェル",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ドキドキ ハート",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "立体機動装置",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "パーソナル スペース",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "プルルーム フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "リザードマン フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "竜の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "防菌効果",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "忍者走り",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ビートビート",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔力アップの秘石",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "抵抗アップの秘石",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "キャスト短縮の秘石",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "天の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔法のブラシ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔術の極意",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "浮遊モード",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "パンツァー フォー！",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "メカニカル ノアジェット",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ソルダート",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ジヤヴォール",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔法の絨毯",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "おしおき三輪車",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ソーラーメット",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "悪魔の取引",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "攻めの鎖",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "守りの鎖",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "囚われのお姫様キブン♪",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アニマル ドライブ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "寝袋効果",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "太陽神の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "MP消費軽減",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ライド オン グリモア",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "黄金の棺",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "インテリジェント デバイス",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "雄鶏フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "雌鶏フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ひよこフォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "幻獣ユニコーン フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ナイトメア フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ウンディーネの幼精 フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "サラマンダーの幼精 フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "打ち倒す者",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔力増幅効果",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "集中力増幅効果",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "火炎",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "鉄の処女",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "血の契約",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "愉快な踊り",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "帝王の威厳",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "リズミカル ダンス",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ジャンピング強化",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "キャットイヤー スピーカー",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "キョンシーの御札",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "DJ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔王の風格",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "キャンプ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "キャストムーブ アップ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "女王の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "空中散歩",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ウェディング フィニュ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "天上の光",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "浮遊霊",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "南国気分",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "電車でゴー！",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "お布団の魔力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "UFO",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ぷにこフォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ムササビ モード",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "悪魔憑依",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "浴衣フィニュ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "スカイ ドラゴン フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "スケーティング",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "超回復",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "マーメイド モード",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ライド トータス",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "九尾の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "チェロソナタ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ムーン パワー",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "シルフ＆ノームの幼精 フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "モール フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "眷属召喚",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "妖狐フィニュ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ハロウィン フィニュ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ハイハイモーション",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "封印されし龍神",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "龍神の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ペンギン モード",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "武術の心得",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "スピード スケート",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アトルーム フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ローセウム フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アールブム フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "フラウ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "イリヤフィニュ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "美遊フィニュ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "クロエフィニュ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ツヴァイフォームフィニュ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "スノーボード",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ドッグファイト",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "箱入り娘 フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "いい湯だな♪",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "スキー",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ファンガスちゃん フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ルミナスちゃん フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ポイズンちゃん フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "タヌキ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "キツネ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ぽこ太 フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ヨーコ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ゴッドアイ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "シャチ モード",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "イーグル フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "お雛様フィニュ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "大天使の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "フローティング モード",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ポンダンス",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "冥府の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "セーラーフィニュ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "モノアイロボ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "メリイ フィニュ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ゴブリン フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ユメ フィニュ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "シホル フィニュ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アンクの加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "オートガード",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "口寄せ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "潜水艇",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ギターくまのペンダント",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ヴァイオリンうさぎのペンダント",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ハーモニカぱんだのペンダント",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "脚力アップ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "パドリング",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "樽で一休み",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "人食い箱 フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "テネーブルの欠片",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "サーフィン",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ダイビング",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "陸上最速の脚",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "竹馬の友",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ヒルデ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "かき氷フォーム(イチゴ)",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "かき氷フォーム(ブルーハワイ)",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "かき氷のペンダント(メロン)",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "人力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "サイコチャージ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "クリアビジョン",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "空を自由に飛びたいな",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "鍛錬",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "安全運転",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "悟りの境地",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "大地の恵み",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "童子の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "リリス フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "道化の極意",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "あびにゃん フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "TIT-P-12 フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "EVI-B-12 フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "玉乗り",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "忍者凧",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "大鎌の魔力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "不死の肉体",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "小妖精フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "キューブで一息",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "木の心",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "薬識",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔女の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "新人魔法少女",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔法女騎士",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔法聖女",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "自然回復UP+",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔法のお姫様",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔法忍者",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "暴走魔法少女",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "森の音楽家",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ラピッドスワロー",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "スノーホワイト フィニュ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "音声増幅装置",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ドライビング",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "人をダメにする効果",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "パワーリング",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "パワーイヤリング",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "マジックリング",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "マジックイヤリング",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ランダム リフレクト",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "クラブ ウォーク",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "青龍の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "玄武の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "朱雀の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "白虎の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ラートの効果",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "バスタブ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "力士",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "女神の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ゆらゆら",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ユキ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ユキ(人型) フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "フェザー ドラゴン フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "グランフェザー ドラゴン フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ガブガブ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ノアエナジー",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "扇の舞",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "念珠",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "猛獣の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ソーンカウンター",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ハナカマキリ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ウォーター スパイダー",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "十字架の棺",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "月宵の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "月姫の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "堕天使の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "もふもふ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "マンドラゴラ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "一寸法師",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "北風と太陽",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "人馬一体",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "こぺんぎん フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "シザー チェアー",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ポコ太(大人) フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ヨーコ(大人) フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アイネ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アイネ(人型) フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "金魚の気持ち",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "大型二種",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "七転び八起き",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "花の恵み",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "体重移動",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "甘い誘惑",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ヴィーナスの加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ジラフ アイ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ダークサイド",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "こんにちは、赤ちゃん",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "クリスタル パワー",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "進め！カッシー！",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "韋駄天",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "怪獣の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "翼竜の飛翔",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "☆彡",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "星の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ゾディアック サイン",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "虫の羽ばたき",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ハンド フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "蓑であったか",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ロック魂",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ビートル GO！",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "スケールトン",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "赤ちゃん ライオン フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "黒ライオン(雄) フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "白ライオン(雄) フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "モスキート ボディ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "モスキート スナッチ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "マンタ モード",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "壺魔人フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ねこまた フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アクアウィンガー フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "妖蝶の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "悪魔のゴブレット",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "一輪車",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "トレジャー チェアー",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "爆走",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "蛇の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "太陽の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "水桶",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "植物の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "スカイハイ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ホッピング",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "死神メア フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "慈愛の心",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "死の支配者",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "這いずる",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "真祖",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "名調教師",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "大自然の使者",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "強欲と無欲",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "鉄拳",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "古き漆黒の粘体",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ハムスケ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アークエンジェル・フレイム フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "鳥獣戯画フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "赤ひよこ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "青ひよこ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "緑ひよこ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "桃ひよこ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "黄ひよこ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "メカひよこ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "鉄腕",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ライド バイク",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "札束風呂",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ハッピー ハロウィン",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "怪物創造",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "安らぎの一時",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "くつろぎの空間",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "開眼",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "秘奥義",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "水蜘蛛",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "神速の勾玉",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "筋力増強",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "虹色の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "深淵の闇",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "熱気球",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "九字護身法",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アドベンチャー ソウル",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "守護天使の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ホーリー エンハンス",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "聖なる水",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "聖衣",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "宙を翔ける者",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "メカトナカイ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "カジノディーラー",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "サーチ ウィークネス",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ゴーゴーロケット",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔王の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "獣走り",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "戦艦",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ティータイム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "戦車リュック",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アイドル ステージ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ピヨピヨ歩き",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "トロリー バッグ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ハーデス フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "エンペラー ペンギン フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "狛犬の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "鬼神の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "滑走",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "フットワーク",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "すこしでもいやせたらいいな♪",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔神の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "愛玩",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "カルゴーシュ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "愛のキューピット",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ファンガスの加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "金色の蝶",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "イースターエッグ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "スタンバイモード",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "憑神の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "水龍の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "なのはフィニュ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "フェイトフィニュ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "はやてフィニュ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔水鏡",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "リリカルなのは フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "武神の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "マイナーソウル",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "満腹度軽減 Lv1",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "美味しくなりました",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "酒豪の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "軍神の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "IGK Dark フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ピクシーシャドウ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ワイバーン(青) フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "サベージ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "サベージボス フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "森で一休み",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ガッツポーズ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "花の癒し",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ドワーフ（女）フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ドワーフ（女鎧）フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "デビルヘアー",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "浮遊水晶",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "闇光の輪",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "リセ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "プリニークッション",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔王の家来 Lv99",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔王の家来 Lv999",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔王の家来 Lv9999",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ラハール フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "エトナ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "フロン フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "プリニー フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "爆発体質",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "高速射撃",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "エリンギモード",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ウー！マンボウ！",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "土偶の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "悪魔の書",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "空飛ぶ絨毯",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "堕天使の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔眼の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ジャック・オ・ランタン フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "呪術師の極意",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔法の羽ペン",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "相利共生",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ゴリラ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "免許皆伝",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "牛若丸 フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "熾天使の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "回転木馬",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "かき氷フォーム(レモン)",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "鎌鼬の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "喧嘩上等",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ツーリング",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ミュージカル",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "星のきらめき",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "惑星",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ピース オブ ザ ムーン",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "満天の星",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ビースト ソウル",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "フラワーロード",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "飛竜の追撃",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "不死鳥の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "わんこ フィニュ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "赤い靴",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "歴史の探究者",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "鷲の戦士",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "黒柴フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "犬神フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "いやされちゅう",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "星のお守り",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "いやしましゅまろフォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "くましゅフォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "強化アシスト機能",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "支援ユニット",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "シーシャ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "防毒効果",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "マネキンモーション",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ラビットイヤー スピーカー",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ゆらゆらすやすや",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "白衣の天使",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "お注射タイム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "光の翼",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "トイソルジャー フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "クリスマスツリー",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "箱入り息子 フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "モアイ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "暴風竜の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "カメレオン アイ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アイリ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アイリ(人型) フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "シロフクロウ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "セルフ ドライビング",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "レイヴン ファミリア",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "火の滅竜魔導士",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "星霊魔導士",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "力の香り",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "聖十大魔道",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "コンバイン フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "太陽の精霊フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "月と星の精霊フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "氷の滅悪魔導士",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "大海のジュビア",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "妖精軍師",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "妖精女王",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "騎士(ザ・ナイト)",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "天空の滅竜魔導士",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "パストーレ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "スペル サークル",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "天空竜の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "星屑の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "プリティー エフェクト",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "マジカル サポート",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "神光",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "天使の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "愛の女神",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "聖天使の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "夢へのいざない",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ショルダー タックル",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "賢者の知識",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "蝶の舞",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔術師の極意",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "最大重量増加",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔石の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "選ばれし者",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "新星現る",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "もかましゅフォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ねこましゅフォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "フェアリー ヒール",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ラフエル フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アルテス フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "太陽の大精霊 フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "竜人の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "竜化の秘法",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔帽子の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "伝説のギタリスト",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "マナチャージ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "攻撃アシスト機能",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "移動アシスト機能",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "オクト ブースター",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "不死鳥の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "がたん ごとん がたん ごとん",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "岩に座る",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "サイレントキラー",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "光のベール",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "精霊の舞",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "氷炎の使い手",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "サモン サポート",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "時の審判者",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ビースト サポート",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ファルサリア フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "団長サポート",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "錬金サポート",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "閣下サポート",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "流浪サポート",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "山猫サポート",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "鉄拳サポート",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "錬金アーサーフィニュ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "盗賊アーサーフィニュ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "鮫 フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "歌姫",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ハーフ＆ハーフ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "オープン マイ ハート",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "王者の余裕",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "にじよめちゃん フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魚ぉぉおおぉぉぉ！",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ドルフィンGO！",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "仲良しフレンズ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ジャッカロープ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "なりきりチャーリー",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "バット エフェクト",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "束縛の鎖",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ブラッティ エフェクト",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "小悪魔の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "星の癒し",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "鳥になりたい",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ゴッテス ゼーゲン",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ラル・ファク神の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "にゃん娘アタック",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "いちごましゅ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "くろましゅ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "うさぎましゅ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "毒蠍の尾",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "闇を統べる者",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "パワードアーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "スノー ロード",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "氷の輝き",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "バフォメットの刻印",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "神通力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "精霊の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "幸運の輝き",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "八岐大蛇",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "弓の名手",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "月と星の大精霊フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "シニスター フィニュ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "投擲の心得",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "暗殺術",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "神速の剣技",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "雷様",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "チョコあびにゃん フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アクエリアスの軌跡",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "星のゆりかご",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ラッコ モード",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ナデナデ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "タフネス",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "恋するメスゴリラ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "双天使の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "リターン ギフト",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "エレメント ガード",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "蒸気機関",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "酒風呂",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "助太刀",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "桜花爛漫",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "正義執行",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ヨチヨチ歩き",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "復活祭",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "デリバリー タイム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "精霊の贈り物",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "スリーピング ロータス",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "神秘のオーラ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "無人販売機フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "モモ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "モモ(人型) フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "キラー ドリアード フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "カーニバル象 フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "シールド サポート",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ノア フロート",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "副腕",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "待ち合わせ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ウォーター タンク",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "あした天気にしておくれ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "チェシャ猫の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔性の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "レスト タイム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "吹奏楽団",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "メディカリスト",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "疫病退散",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "バナナでプカプカ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "秘めたる願い",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "グルーミング",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魚群",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "四輪駆動",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "夏天清魚フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "スナイパー アイ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "剣闘士の魂",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "獅子の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "兵隊サポート",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "犬笛",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "サイドカ―",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "傀儡子",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "封印のヴェール",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "永遠の献身",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "宝石の煌めき",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "エキスパート マジック",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "円月輪",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "月の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "らびっとそふぁ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "モンブラン デコレーション",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "栗の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "マリアッチ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ブル ライディング",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "夜の王",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "主の証",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "吸血鬼の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "穴掘り名人",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "みかわしきゃく",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "高貴な騎士",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "円卓会議",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "育成アプリ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "神秘のリンゴ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "学習装置",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "防音グッズ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "一輪バイク",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "時の管理者",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "猫の目",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "白虎の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "雪の女王",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "フライング リース",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "寿",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "粉雪",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "冥神アル フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "千年結晶竜アナ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アナリティクス",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "機械翅",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "エクストリーム ボード",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "雪ん子の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "神秘のベール",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "雪女の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "眠り姫",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "マーメイドの加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "邪悪な力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔剣の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "リラックス タイム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "竜爪撃",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "カオス アビシニアン フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "狂戦士の呪縛",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "武士の魂",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "プリンセス ハート",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ハードコア・パンク",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "茨の契約",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "スノー フェアリー フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "シマエナガ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "エンジェル サポート",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "埴輪ポーズ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "鏡面反射",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "勾玉の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "死ノ象徴",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "鬼人の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "鬼道の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アニマル コミュニケーション",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "溢れる妖気",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "カツヲ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "クロマグロ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ベビーシープ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "エルダーシープ（オス） フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "エルダーシープ（メス） フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ヘルズ スレイヤー",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "磁力操作",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "仕込み靴",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "七つ道具",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "まるふわ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "古代文明の叡智",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔力結晶",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "竜化の呪い",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ユニコーンの加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "パイオニア",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "さくらんぼの心",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "スーパースター",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "覇道",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "クリスタル シェルター",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "光の精霊",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アニマル ラヴァー",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ウォーター バルーン",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "イルカに乗られた少年？",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "付与術師",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "暗殺者",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "盗剣士",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "神祇官",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "狂戦士",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "施療神官",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "森呪遣い",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "巨人殺し",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ペインブラック",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "精霊の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アカツキ フィニュ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "にゃん太 フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ルセアート（黒騎士） フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ルセアート（白騎士） フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "影の尖兵 フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "クマノミの加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "幻獣の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "駆け抜ける悪夢",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "水風船フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "錬金術師",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔界の支配者",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "H.EROの心",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "スカイ ドライビング",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "シフトチェンジ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "チアフリー",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "サラウンド",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔神ベリアル フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ゴースト マリッジ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "スニーキング",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ゴーゴーゴースト",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "悪魔の瞳",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "レッドゾーン",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "調教師の心得",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "物理反射 Lv2",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "メタビー フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ロクショウ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アークビートル フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ディアステージ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ペッパーキャット フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ゴッドエンペラー フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "クロスメサイア フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "Gメタビー フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "Pロクショウ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "カンフー スタイル",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔力障壁",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ペンデュラム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ライダー ソウル",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔法の羽",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "月星の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "太陽の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "神に仕える者",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔攻変換",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔速変換",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "巨人の籠手",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ステータス上昇(WarAge)",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "影ノ者",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "獅子奮迅",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "千年結晶竜（赤）フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "千年結晶竜ルナ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ヘッドレスナイト フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "もこもこガード",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ミステリアス オーラ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ホットチョコ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "紋章の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "蛇帯",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "肉球スタンプ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "チンチラ キャット フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ブラック ソリッド フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ヒマラヤン フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "青猫 フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ノアターボ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "トゲトゲ パワー",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "仙術",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ちょこましゅ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ひなましゅ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ぶたましゅ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "エンチャント レッグ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "巣立ち雛",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔法の枷",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "桜花の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "蝶の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "エンチャント レッグ ファイアー",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "エンチャント レッグ フリーズ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "エンチャント レッグ サンダー",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔導の真髄",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "マンイータープラント フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "永遠のアイドル",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ホーリー メイデン",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "幸運の御守",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "東方不敗",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ラン フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "石魔の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "水陸両用",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "蛙の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "あめあめふれふれ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "怪鳥の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "鳳凰の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "フェンネの加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "レガリアの力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "竜眼",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "小鬼を殺す者",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "上森人",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "鉱人道士",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "竜司祭",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "シェル ガード",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "女神官フィニュ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "妖精弓手フィニュ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "小鬼 フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "竜牙兵 フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "カッシー（オス） フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "カッシー（メス） フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "リゾート気分",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "小鬼呪術師フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "田舎者フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "小鬼英雄フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "スター ロード",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "スターダム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ノアチャージ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ヘルスケア",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "キックスケーター",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "リンクコーデ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "熊猫流の極意",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "姿勢制御",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ふわもこクッション",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "小鳥のさえずり",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "仕込み刃",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ヘルメスの加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "神霊の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "スノーホワイト フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ラ・ピュセル フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "リップル フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "トップスピード フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "赤柴 フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "白柴 フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "緑柴 フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "赤柴(成犬) フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "白柴(成犬) フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "緑柴(成犬) フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "デビルハンター",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "エリンギくん フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "モーション変化無効",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "プリティ チャーリー",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "サポートロボ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "闇を纏いし者",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "オート プロテクション",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ホワイトクリスマス",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ロングロング",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "高速鉄道",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "トランスフォーム・タイタン！",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "千年結晶竜エナ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "武神メア フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "脱兎",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "鎧の兵士 フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "赤龍帝の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "紅髪の滅殺姫",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "雷光の巫女",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "猫又モード",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "聖母の微笑",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "妖狐の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "御使い",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "半神の戦乙女",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "赤龍帝の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "聖槍の使い手",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "無限の龍神",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "むぎゅっ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "掘削モード",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ジェットパック",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "赤龍帝 フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "小猫フィニュ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "九重フィニュ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "黒猫の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ひなちゃんと一緒",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "山紫水明",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "桜花エフェクト",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ハッピー・イースター",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔弾の射手",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "鋼の剛腕",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "マギア フォース",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "オートモービル",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "焔の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "双魔剣",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "射出装置",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "戦闘データ &lt;ミノタウロス&gt;",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "戦闘データ &lt;デュラハン&gt;",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "戦闘データ &lt;ザハーク&gt;",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "戦闘データ &lt;魔神ヘルミナ&gt;",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "戦闘データ &lt;ハーデス&gt;",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "蠍の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "森の賢者",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "狂獣の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "キーウィ？ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "マッスル パワー",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "宣伝車",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "火神イグニス フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "名工の技",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "蠍座",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "地雷系",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ベルセルク",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "海月の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "大型二輪",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "月夜の煌き",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "神聖な力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アニマル フレンズ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "活火山",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アイドルの卵",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ワーカー ソウル",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "おばけのチャーリー フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "竜王の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アートポーズ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "胡蝶之夢",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ノア ポッド",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "竜王フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "妖鬼の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "神便鬼毒酒",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ガトリング アーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "キャタピラー レッグ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ツインキャノン",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "マナ・コンバーター",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "シューの加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "みにへいし フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アーティスト",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ブルーム ブースター",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ハーベスター",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "漆黒の魔眼",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "メダロッター",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "シュシュポップ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ブレザーメイツ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ハードネステン フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "守りの翼",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "動ける寝袋",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "抱っこ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "チャーリーライト フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "超合金ボディ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "大魔導士",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "スクワラル サポート",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "炎魔の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "クリスタル チェアー",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "氷華の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "雪妖精の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "オーロラの加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "白薔薇の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "シャーク・ザ・ライド",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ボリュームアップ！",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "Warイベント参加用制限BUFF",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "シーホースの力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ジュエリーフィッシュ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "職人気質",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "破邪の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "蒼炎の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "黄龍の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "幼龍の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "憧憬一途",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "疾風奮迅",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "復讐姫",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "縁下力持",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "炉の女神",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "妖想狐術",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "月下狼哮",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "八咫黒鳥",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "炎化創火",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "リューフィニュ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アイズフィニュ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ミニ ジャガーノート フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "キラークイーン",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "蜂の羽ばたき",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "山犬の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "狼牙",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ウルフ ソウル",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ブランコ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "剛腕の呪印",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔法のドレス",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔法の馬車",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ラーの加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ファラオの力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "オシリスの加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "上級魔術師",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔導の極み",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "風翼の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "モルモット（黄） フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "デスナイト（赤） フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "猛牛の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "水精の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "漆黒のベール",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "マジック チャーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ゴルファー",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "スライミィ ボディ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "無重力感",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "フラワー ブレッシング",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "サモンズ ソード",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "蒸気の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "独楽",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ロックスター",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "武神流の極意",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "暗器の鉤爪",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "神眼の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "闇纏",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "竜帝フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "クマノミ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "重騎兵の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "強化の刻印",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ウミウシ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "リスキー ベット",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アイドル フィニュ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "エンジェル ピッグ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "戦神オーディン フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魅惑のマーメイド",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "サモエド フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "インフェルノ ゴーレム フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "猛獣の爪",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "獣人の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "獣蹄",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "鮫人",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "守護霊",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "憑物",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "三つの願い",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "悪魔の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アラビアン ダンサー",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔法の簪",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "悪鬼羅刹",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "月夜見の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "レゾナンス ムーン",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "殲滅の魔術師",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔法の封蝋",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "暗黒障壁",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "熾天使の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "不屈の魂",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "フューチャー テクノロジー",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ノア リアクター",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "破壊の紋章",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "しいたけ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ハロウィン キャット フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "スプーキー ソウル",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "妖艶な舞",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ノアの光",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "怒髪衝天",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ふぃにゅましゅ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ぷるるーむましゅ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "夫婦剣",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "こましゅ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "海竜の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "法力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "魔法陣ブースト",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "銃士の心得",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アニマル チャーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "天女の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "天女の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アイラ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アイラ(人型) フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ゆめくじら フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "孔雀の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ドール ポーズ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "海狸の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "フューチャードロイド フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "スネーク サポート",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "三巳一体",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ラッキーチャーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ポストマン",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ミリタリーアーツ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ウルの加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "氷結の魔女",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "愛の神",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ハッピー バレンタイン",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "神獣朱雀の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "神獣青龍の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "神獣白虎の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "神獣玄武の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "オーリ・オール",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アウリオール",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "異界の魔力炉心",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "時の歯車",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "スペシャリテ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "妖艶なオーラ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "強化の魔石",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "エルフの加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "和洋折衷",
@@ -7406,137 +8882,164 @@
 				"value": 1.03,
 				"method": "multiply"
 			}
-		]
+		],
+		"description": "最大HPと攻撃力、最大MPと魔力がそれぞれ上昇する"
 	},
 	{
 		"name": "東奔西走",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "竜王の加護",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "竜王の腕",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "栄光の輝き",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "アニマル セラピスト",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "モルモット（緑） フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "剛剣の使い手",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "サメの力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "天職：錬成師",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "天職：神子",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "海人族",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "重力魔法",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "生成魔法",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "愚者のアルカナ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "天職：占術師",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "天職：治癒師",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ユエ フィニュ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "シア フィニュ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "天職：守護者",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "天職：剣士",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "変成魔法",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "黒竜ティオ フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "トンボの餌",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "死神候補",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "タキシード犬 フォーム",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "王の器",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "気炎万丈",
@@ -7559,7 +9062,8 @@
 				"value": 41.25,
 				"method": "add"
 			}
-		]
+		],
+		"description": "火属性と攻撃力依存の物理ダメージが上昇して、スタミナの自然回復量が増加する"
 	},
 	{
 		"name": "智勇兼備",
@@ -7588,12 +9092,14 @@
 				"value": 56,
 				"method": "add"
 			}
-		]
+		],
+		"description": "攻撃力と魔力が上昇して、スタミナとMPの自然回復量が増加する"
 	},
 	{
 		"name": "武芸百般",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "英雄の翼",
@@ -7622,7 +9128,8 @@
 				"value": 10,
 				"method": "add"
 			}
-		]
+		],
+		"description": "破壊/強化/神秘/回復の4魔法効果が上昇する"
 	},
 	{
 		"name": "ファルコンの加護",
@@ -7643,31 +9150,37 @@
 				"value": 42.25,
 				"method": "add"
 			}
-		]
+		],
+		"description": "待機モーションが変化し、移動速度とスタミナの自然回復速度が上昇する"
 	},
 	{
 		"name": "石魔人の力",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "ディバイン ローズ",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "闇の王",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "星光",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	},
 	{
 		"name": "椅子レース",
 		"unedited": true,
-		"effects": []
+		"effects": [],
+		"description": ""
 	}
 ]

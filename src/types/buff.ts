@@ -22,11 +22,13 @@ type OtherBuff = z.infer<typeof otherBuffSchema>;
 export const buffSchema = z.union([
 	z.object({
 		name: z.string(),
+		description: z.string(),
 		unedited: z.literal(true),
 		effects: z.array(z.never()).optional(),
 	}),
 	z.object({
 		name: z.string(),
+		description: z.string(),
 		unedited: z.literal(false).optional(),
 		effects: z.array(
 			z.union([
