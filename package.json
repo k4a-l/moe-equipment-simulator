@@ -6,7 +6,7 @@
 		"dev": "next dev --turbopack",
 		"build": "next build",
 		"start": "next start",
-		"generate:schemas": "tsx src/scripts/generate-json-schemas.ts",
+		"generate:schemas": "tsx src/scripts/generate-json-schemas.ts && biome check --write assets",
 		"ci": "biome ci src assets",
 		"check": "biome check --write src assets",
 		"lint": "biome lint --write src assets ",
