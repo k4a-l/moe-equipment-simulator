@@ -7,9 +7,12 @@
 		"build": "next build",
 		"start": "next start",
 		"generate:schemas": "tsx src/scripts/generate-json-schemas.ts",
-		"check": "biome check src assets",
-		"format": "biome format src assets --write",
-		"validate:json": "jsonschema validate assets/schemas/shields.schema.json assets/shields.json && jsonschema validate assets/schemas/weapons.schema.json assets/weapons.json && jsonschema validate assets/schemas/defences.schema.json assets/defences.json"
+		"ci": "biome ci src assets",
+		"check": "biome check --write src assets",
+		"lint": "biome lint --write src assets ",
+		"format": "biome format --write  src assets ",
+		"validate:json": "jsonschema validate assets/schemas/shields.schema.json assets/shields.json && jsonschema validate assets/schemas/weapons.schema.json assets/weapons.json && jsonschema validate assets/schemas/defences.schema.json assets/defences.json && jsonschema validate assets/schemas/buffs.schema.json assets/buffs.json",
+		"prepare": "husky install"
 	},
 	"dependencies": {
 		"@radix-ui/react-slot": "^1.2.3",
@@ -31,7 +34,9 @@
 		"@types/react": "^19",
 		"@types/react-dom": "^19",
 		"axios": "^1.10.0",
+		"husky": "^8.0.0",
 		"jsonschema": "^1.5.0",
+		"lint-staged": "^16.1.2",
 		"playwright": "^1.53.2",
 		"postcss": "^8.5.6",
 		"postcss-simple-vars": "^7.0.1",
