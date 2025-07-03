@@ -5233,9 +5233,16 @@
 	},
 	{
 		"name": "妖精女王",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [
+			{
+				"type": "statusUp",
+				"subject": "クリティカル率",
+				"value": 20,
+				"method": "add",
+				"group": "B2"
+			}
+		],
+		"description": "通常攻撃のクリティカル率が上昇する"
 	},
 	{
 		"name": "騎士(ザ・ナイト)",
@@ -5431,9 +5438,22 @@
 	},
 	{
 		"name": "攻撃アシスト機能",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [
+			{
+				"type": "statusUp",
+				"subject": "クリティカル率",
+				"value": 20,
+				"method": "add",
+				"group": "B2"
+			},
+			{
+				"type": "statusUp",
+				"subject": "命中",
+				"value": 1.1,
+				"method": "multiply"
+			}
+		],
+		"description": "アシスト機能で対象の弱点を視覚化してクリティカル率と命中率を上昇させる"
 	},
 	{
 		"name": "移動アシスト機能",

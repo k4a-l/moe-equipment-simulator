@@ -101,6 +101,8 @@ export const EFFECT_SUBJECTS = [
 	z.literal("ピッキング回転速度補正"),
 ] as const;
 
+export type EffectSubjectType = (typeof EFFECT_SUBJECTS)[number]["_type"];
+
 export const effectSubjectSchema = z.union(EFFECT_SUBJECTS);
 
 type EffectSubject = z.infer<typeof effectSubjectSchema>;

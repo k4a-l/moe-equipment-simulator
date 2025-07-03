@@ -6,8 +6,8 @@ const statusUpBuffSchema = z.object({
 	type: z.literal("statusUp"), // 効果の種類
 	subject: effectSubjectSchema, // 効果対象
 	value: z.number(), // 効果値
-	method: z.union([z.literal("add"), z.literal("multiply")]), //
-	// 効果の適用方法
+	method: z.union([z.literal("add"), z.literal("multiply")]),
+	group: z.string().optional(), // グループ番号（同じグループのバフは同時に適用されない） 今はどことも被ってないけど今後の実装で被るということもあるのが面倒 その時に既存のデータを更新できるか？
 });
 
 type StatusUpBuff = z.infer<typeof statusUpBuffSchema>;
