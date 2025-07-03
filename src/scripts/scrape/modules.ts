@@ -1,5 +1,6 @@
 import { chromium, type ElementHandle, type Page } from "playwright";
 import {
+	type AllSkill,
 	type DefenceItem,
 	type DefencePart,
 	type Effect,
@@ -10,7 +11,6 @@ import {
 	type ShieldItem,
 	type WeaponItem,
 	type WeaponPart,
-	type WeaponSkill,
 } from "@/types/Item";
 import { sleep } from "@/utils/time";
 import { BASE_URL } from "./constants";
@@ -285,7 +285,7 @@ export async function getItemInfoByElement<EQ_T extends EquipmentType>(
 			parts: parts.filter((p) => !p.includes("HAND")) as WeaponPart[],
 			both: parts.includes("2HAND"),
 			skills: skills.map((s) => ({
-				weapon: s.weapon as WeaponSkill,
+				weapon: s.weapon as AllSkill,
 				value: s.value,
 			})),
 			attackDelay: attackDelay,

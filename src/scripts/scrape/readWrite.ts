@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
+import type { Buff } from "@/types/buff";
 import {
-	type Buff,
 	type DefenceItem,
 	EQUIPMENT_TYPE,
 	type ShieldItem,

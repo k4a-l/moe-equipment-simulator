@@ -1,21 +1,20 @@
 [
 	{
 		"name": "死神の鎌",
-		"unedited": true,
 		"effects": [],
-		"description": ""
+		"description": "没装備（ヘルサイス）のバフ"
 	},
 	{
 		"name": "急所突き",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [{ "type": "others", "subject": "発動時対象に250ダメージ" }],
+		"description": "付与：急所突き 2%"
 	},
 	{
 		"name": "仕込み毒",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [
+			{ "type": "others", "subject": "1秒間隔で固定4ダメージ×4回のDoT" }
+		],
+		"description": "仕込み毒 20%"
 	},
 	{
 		"name": "灼熱の炎",
@@ -8907,159 +8906,455 @@
 	},
 	{
 		"name": "東奔西走",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [
+			{
+				"type": "statusUp",
+				"subject": "ジャンプ力",
+				"value": 1.45,
+				"method": "multiply"
+			},
+			{
+				"type": "statusUp",
+				"subject": "回避",
+				"value": 1.1,
+				"method": "multiply"
+			},
+			{
+				"type": "statusUp",
+				"subject": "移動速度",
+				"value": 10,
+				"method": "add"
+			},
+			{
+				"type": "moveMotionChange"
+			}
+		],
+		"description": "ジャンプ力、回避、移動速度が上昇する"
 	},
 	{
 		"name": "竜王の加護",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [
+			{
+				"type": "statusUp",
+				"subject": "魔法与ダメージ",
+				"method": "add",
+				"value": 10
+			},
+			{
+				"type": "statusUp",
+				"subject": "ST自然回復",
+				"method": "add",
+				"value": 56.2
+			},
+			{ "type": "technique", "subject": "アンリミテッド フォース" }
+		],
+		"description": "竜王の加護により魔法の威力が増加して、スタミナの自然回復量が上昇する"
 	},
 	{
 		"name": "竜王の腕",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [
+			{
+				"type": "statusUp",
+				"subject": "攻撃力",
+				"method": "multiply",
+				"value": 1.03
+			},
+			{
+				"type": "statusUp",
+				"subject": "クリティカル率",
+				"method": "add",
+				"value": 10
+			},
+			{
+				"type": "statusUp",
+				"subject": "物理与ダメージ",
+				"method": "add",
+				"value": 10
+			}
+		],
+		"description": "竜の如き腕力で敵を粉砕する\n※攻撃力とクリティカル率が上昇し、攻撃力依存の物理ダメージが増加する"
 	},
 	{
 		"name": "栄光の輝き",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [
+			{
+				"type": "statusUp",
+				"subject": "耐全属性",
+				"method": "multiply",
+				"value": 1.1
+			},
+			{
+				"type": "statusUp",
+				"subject": "無属性効果",
+				"method": "add",
+				"value": 20
+			}
+		],
+		"description": "耐全属性が10%上昇して、無属性の魔法ダメージが増加する"
 	},
 	{
 		"name": "アニマル セラピスト",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [
+			{
+				"type": "statusUp",
+				"subject": "調教",
+				"method": "add",
+				"value": 20
+			},
+			{
+				"type": "statusUp",
+				"subject": "ペット経験値",
+				"method": "multiply",
+				"value": 1.2
+			}
+		],
+		"description": "調教スキルの効果とペットの取得経験値が大幅に増加する"
 	},
 	{
 		"name": "モルモット（緑） フォーム",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [{ "type": "transform", "subject": "モルモット（緑）" }],
+		"description": "モルモット（緑）フォーム"
 	},
 	{
 		"name": "剛剣の使い手",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [
+			{
+				"type": "statusUp",
+				"subject": "物理与ダメージ",
+				"method": "add",
+				"value": 15
+			},
+			{
+				"type": "statusUp",
+				"subject": "命中",
+				"method": "multiply",
+				"value": 0.95
+			},
+			{
+				"type": "statusUp",
+				"subject": "回避",
+				"method": "multiply",
+				"value": 0.95
+			}
+		],
+		"description": "攻撃力依存のダメージが15%上昇するが、命中と回避が5%低下する"
 	},
 	{
 		"name": "サメの力",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [
+			{
+				"type": "statusUp",
+				"subject": "牙",
+				"method": "add",
+				"value": 15
+			},
+			{
+				"type": "statusUp",
+				"subject": "水中速度",
+				"method": "add",
+				"value": 15
+			}
+		],
+		"description": "牙のスキル効果と水中移動速度が上昇する"
 	},
 	{
 		"name": "天職：錬成師",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [
+			{
+				"type": "statusUp",
+				"subject": "命中",
+				"method": "multiply",
+				"value": 1.15
+			},
+			{
+				"type": "delayCut",
+				"subject": "銃器",
+				"value": -20
+			},
+			{
+				"type": "manufacture",
+				"subject": "全生産",
+				"process": "マスターグレードゾーン",
+				"value": 2
+			}
+		],
+		"description": "銃器技のディレイが短縮されて、命中率が上昇し、生産品のMG枠が増加する"
 	},
 	{
 		"name": "天職：神子",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [
+			{
+				"type": "statusUp",
+				"subject": "魔法与ダメージ",
+				"method": "add",
+				"value": 10
+			},
+			{
+				"type": "statusUp",
+				"subject": "HP自然回復",
+				"method": "add",
+				"value": 157.5
+			}
+		],
+		"description": "魔法の威力が増加し、HPの自然回復が大幅に上昇する"
 	},
 	{
 		"name": "海人族",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [
+			{
+				"type": "statusUp",
+				"subject": "水属性効果",
+				"method": "add",
+				"value": 10
+			},
+			{ "type": "others", "subject": "呼吸永続" }
+		],
+		"description": "水属性の効果が上昇し、水中で呼吸が可能になる"
 	},
 	{
 		"name": "重力魔法",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [
+			{
+				"type": "standMotionChange"
+			},
+			{
+				"type": "statusUp",
+				"subject": "所持重量",
+				"method": "multiply",
+				"value": 0.8
+			}
+		],
+		"description": "待機モーションが変化して、持ち物の重さが軽くなる"
 	},
 	{
 		"name": "生成魔法",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [
+			{
+				"type": "manufacture",
+				"subject": "全生産",
+				"process": "グレードゾーン",
+				"value": 2
+			}
+		],
+		"description": "すべての生産アイテムのハイグレードマスが増加する"
 	},
 	{
 		"name": "愚者のアルカナ",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [
+			{
+				"type": "statusUp",
+				"subject": "物まね",
+				"method": "add",
+				"value": 20
+			},
+			{
+				"type": "delayCut",
+				"subject": "物まね",
+				"value": -10
+			}
+		],
+		"description": "物まねの効果が上昇して、物まねの技ディレイが大幅に短縮される"
 	},
 	{
 		"name": "天職：占術師",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [
+			{
+				"type": "statusUp",
+				"subject": "物理与ダメージ",
+				"method": "add",
+				"value": 10
+			},
+			{
+				"type": "statusUp",
+				"subject": "回避",
+				"method": "multiply",
+				"value": 1.2
+			}
+		],
+		"description": "身体強化で物理ダメージが増加し、未来視で回避率が大幅に上昇する"
 	},
 	{
 		"name": "天職：治癒師",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [
+			{
+				"type": "statusUp",
+				"subject": "回復",
+				"method": "multiply",
+				"value": 1.1
+			},
+			{
+				"type": "statusUp",
+				"subject": "神秘",
+				"method": "multiply",
+				"value": 1.1
+			},
+			{
+				"type": "costRatio",
+				"subject": "MP",
+				"value": 0.9
+			}
+		],
+		"description": "MPの消費が軽減されて、回復魔法と神秘魔法の効果が上昇する"
 	},
 	{
 		"name": "ユエ フィニュ フォーム",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [{ "type": "transform", "subject": "ユエフィニュ" }],
+		"description": "ユエフィニュに変身できる"
 	},
 	{
 		"name": "シア フィニュ フォーム",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [{ "type": "transform", "subject": "シアフィニュ" }],
+		"description": "シアフィニュに変身できる"
 	},
 	{
 		"name": "天職：守護者",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [
+			{
+				"type": "statusUp",
+				"subject": "火属性効果",
+				"method": "add",
+				"value": 10
+			},
+			{
+				"type": "statusUp",
+				"subject": "風属性効果",
+				"method": "add",
+				"value": 10
+			},
+			{
+				"type": "recovery",
+				"subject": "MP",
+				"value": 20,
+				"probability": 1
+			}
+		],
+		"description": "火属性と風属性の効果が上昇し、ダメージを受けるとMPが回復する"
 	},
 	{
 		"name": "天職：剣士",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [
+			{
+				"type": "statusUp",
+				"subject": "攻撃力",
+				"method": "multiply",
+				"value": 1.03
+			},
+			{
+				"type": "statusUp",
+				"subject": "攻撃ディレイ",
+				"method": "add",
+				"value": -10
+			},
+			{
+				"type": "statusUp",
+				"subject": "戦闘技術",
+				"method": "add",
+				"value": 10
+			}
+		],
+		"description": "攻撃力、攻撃速度、戦闘技術の効果が上昇する"
 	},
 	{
 		"name": "変成魔法",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [
+			{
+				"type": "statusUp",
+				"subject": "調教",
+				"method": "add",
+				"value": 20
+			},
+			{
+				"type": "statusUp",
+				"subject": "ペット経験値",
+				"method": "multiply",
+				"value": 1.1
+			}
+		],
+		"description": "調教スキルの効果とペットの取得経験値が少し上昇する"
 	},
 	{
 		"name": "黒竜ティオ フォーム",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [{ "type": "transform", "subject": "黒竜ティオ" }],
+		"description": "黒竜ティオに変身できる"
 	},
 	{
 		"name": "トンボの餌",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [
+			{ "type": "standMotionChange" },
+			{ "type": "moveMotionChange" },
+			{
+				"type": "statusUp",
+				"subject": "移動速度",
+				"method": "multiply",
+				"value": 1.2
+			}
+		],
+		"description": "高速で移動する巨大なトンボに捕獲された獲物"
 	},
 	{
 		"name": "死神候補",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [
+			{
+				"type": "statusUp",
+				"subject": "死魔",
+				"method": "add",
+				"value": 15
+			},
+			{
+				"type": "statusUp",
+				"subject": "暗黒命令",
+				"method": "add",
+				"value": 15
+			}
+		],
+		"description": "死の魔法と暗黒命令の効果が15上昇する"
 	},
 	{
 		"name": "タキシード犬 フォーム",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [{ "type": "transform", "subject": "タキシード犬" }],
+		"description": "タキシード犬に変身できる"
 	},
 	{
 		"name": "王の器",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"description": "全てのステータス(攻撃力、命中、回避、防御力、魔力、全属性耐性)が上昇する",
+		"effects": [
+			{
+				"type": "statusUp",
+				"subject": "攻撃力",
+				"method": "multiply",
+				"value": 1.03
+			},
+			{
+				"type": "statusUp",
+				"subject": "魔力",
+				"method": "multiply",
+				"value": 1.03
+			},
+			{
+				"type": "statusUp",
+				"subject": "命中",
+				"method": "multiply",
+				"value": 1.03
+			},
+			{
+				"type": "statusUp",
+				"subject": "回避",
+				"method": "multiply",
+				"value": 1.03
+			},
+			{
+				"type": "statusUp",
+				"subject": "防御力",
+				"method": "multiply",
+				"value": 1.03
+			},
+			{
+				"type": "statusUp",
+				"subject": "耐全属性",
+				"method": "multiply",
+				"value": 1.03
+			}
+		]
 	},
 	{
 		"name": "気炎万丈",
@@ -9073,8 +9368,8 @@
 			{
 				"type": "statusUp",
 				"subject": "物理与ダメージ",
-				"value": 1.1,
-				"method": "multiply"
+				"value": 10,
+				"method": "add"
 			},
 			{
 				"type": "statusUp",
@@ -9126,25 +9421,25 @@
 		"effects": [
 			{
 				"type": "statusUp",
-				"subject": "破壊スキル",
+				"subject": "破壊",
 				"value": 10,
 				"method": "add"
 			},
 			{
 				"type": "statusUp",
-				"subject": "強化スキル",
+				"subject": "強化",
 				"value": 10,
 				"method": "add"
 			},
 			{
 				"type": "statusUp",
-				"subject": "神秘スキル",
+				"subject": "神秘",
 				"value": 10,
 				"method": "add"
 			},
 			{
 				"type": "statusUp",
-				"subject": "回復スキル",
+				"subject": "回復",
 				"value": 10,
 				"method": "add"
 			}

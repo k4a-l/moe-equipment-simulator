@@ -117,4 +117,24 @@
 	body {
 		@apply bg-background text-foreground;
 	}
+
+	/* 独自 */
+	button,
+	[role="button"] {
+		cursor: pointer;
+	}
+
+	.compact-table {
+		td,
+		th {
+			@apply !px-1 !py-0.5 border-x;
+		}
+	}
+
+	.grid-table {
+		td,
+		th {
+			@apply border-x;
+		}
+	}
 }
