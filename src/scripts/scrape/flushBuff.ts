@@ -22,11 +22,14 @@ async function main() {
 	);
 	const newBuffs: Buff[] = [...buffSet]
 		.filter((buffName) => !existsBuffs.find((eb) => eb.name === buffName))
-		.map((i) => ({
-			name: i,
-			unedited: true,
-			effects: [] as unknown as Buff["effects"],
-		}));
+		.map(
+			(i): Buff => ({
+				name: i,
+				unedited: true,
+				effects: [],
+				description: "",
+			}),
+		);
 
 	const buffs = [...existsBuffs, ...newBuffs];
 

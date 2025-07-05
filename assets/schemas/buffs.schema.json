@@ -39,6 +39,9 @@
 						"type": "boolean",
 						"const": false
 					},
+					"noBuffSlot": {
+						"type": "boolean"
+					},
 					"effects": {
 						"type": "array",
 						"items": {
@@ -55,8 +58,8 @@
 											"enum": [
 												"攻撃力",
 												"命中",
-												"物理与ダメージ",
-												"魔法与ダメージ",
+												"物理与ダメージ率",
+												"魔法与ダメージ率",
 												"魔法ディレイ",
 												"クリティカル率",
 												"魔力",
@@ -97,12 +100,12 @@
 												"ギャンブル",
 												"パフォーマンス",
 												"ダンス",
-												"ペット経験値",
-												"火属性効果",
-												"水属性効果",
-												"土属性効果",
-												"風属性効果",
-												"無属性効果",
+												"ペット経験値率",
+												"火属性効果率",
+												"水属性効果率",
+												"土属性効果率",
+												"風属性効果率",
+												"無属性効果率",
 												"HP自然回復",
 												"ST自然回復",
 												"MP自然回復",
@@ -119,7 +122,7 @@
 												"SMELLING",
 												"最大重量",
 												"所持重量",
-												"ジャンプ力",
+												"ジャンプ力率",
 												"BREATH",
 												"料理ゲージ滑り",
 												"料理ゲージ速度",
@@ -189,15 +192,15 @@
 										"value": {
 											"type": "number"
 										},
-										"method": {
-											"type": "string",
-											"enum": ["add", "multiply"]
-										},
 										"group": {
 											"type": "string"
+										},
+										"numberType": {
+											"type": "string",
+											"enum": ["percent"]
 										}
 									},
-									"required": ["type", "subject", "value", "method"],
+									"required": ["type", "subject", "value"],
 									"additionalProperties": false
 								},
 								{
@@ -367,7 +370,8 @@
 												"装飾細工",
 												"複製",
 												"栽培",
-												"美容"
+												"美容",
+												"アイテム使用"
 											]
 										},
 										"value": {
@@ -429,6 +433,70 @@
 										}
 									},
 									"required": ["type", "subject"],
+									"additionalProperties": false
+								},
+								{
+									"type": "object",
+									"properties": {
+										"type": {
+											"type": "string",
+											"const": "followAttack"
+										},
+										"subject": {
+											"type": "string"
+										}
+									},
+									"required": ["type", "subject"],
+									"additionalProperties": false
+								},
+								{
+									"type": "object",
+									"properties": {
+										"type": {
+											"type": "string",
+											"const": "techniqueMotionChange"
+										},
+										"description": {
+											"type": "string"
+										}
+									},
+									"required": ["type"],
+									"additionalProperties": false
+								},
+								{
+									"type": "object",
+									"properties": {
+										"type": {
+											"type": "string",
+											"const": "prevent"
+										},
+										"subject": {
+											"type": "string",
+											"enum": ["満腹度減少", " 潤喉度減少"]
+										},
+										"value": {
+											"type": "number"
+										}
+									},
+									"required": ["type", "subject", "value"],
+									"additionalProperties": false
+								},
+								{
+									"type": "object",
+									"properties": {
+										"type": {
+											"type": "string",
+											"const": "damageUp"
+										},
+										"subject": {
+											"type": "string",
+											"enum": ["悪魔", "巨人"]
+										},
+										"value": {
+											"type": "number"
+										}
+									},
+									"required": ["type", "subject", "value"],
 									"additionalProperties": false
 								}
 							]

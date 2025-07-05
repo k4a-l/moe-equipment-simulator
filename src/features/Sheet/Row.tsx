@@ -42,7 +42,7 @@ export function ItemCells({
 							?.map((e) => e.value),
 						item?.buff?.effects?.map((e) =>
 							e.type === "statusUp" && e.subject === subject
-								? `${e.method === "add" ? "+" : "×"}${e.value} `
+								? `${e.numberType === "percent" ? "×" : "+"}${e.value} `
 								: undefined,
 						) ?? [],
 					]
@@ -128,13 +128,13 @@ export function SumCells({
 								const staticBuffValue = (cur.item?.buff?.effects ?? [])
 									.filter((e) => e.type === "statusUp")
 									.filter((e) => e.subject === subject)
-									.filter((e) => e.method === "add")
+									.filter((e) => e.numberType !== "percent")
 									?.reduce((sum, e) => sum + e.value, 0);
 								const multiplyBuffValue =
 									(cur.item?.buff?.effects ?? [])
 										.filter((e) => e.type === "statusUp")
 										.filter((e) => e.subject === subject)
-										.filter((e) => e.method === "multiply")
+										.filter((e) => e.numberType === "percent")
 										?.reduce((product, e) => product * e.value, 1) ?? 1;
 
 								return (

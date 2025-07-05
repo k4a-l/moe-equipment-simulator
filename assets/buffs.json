@@ -5237,7 +5237,6 @@
 				"type": "statusUp",
 				"subject": "クリティカル率",
 				"value": 20,
-				"method": "add",
 				"group": "B2"
 			}
 		],
@@ -5442,14 +5441,13 @@
 				"type": "statusUp",
 				"subject": "クリティカル率",
 				"value": 20,
-				"method": "add",
 				"group": "B2"
 			},
 			{
 				"type": "statusUp",
 				"subject": "命中",
-				"value": 1.1,
-				"method": "multiply"
+				"value": 10,
+				"numberType": "percent"
 			}
 		],
 		"description": "アシスト機能で対象の弱点を視覚化してクリティカル率と命中率を上昇させる"
@@ -8880,26 +8878,26 @@
 			{
 				"type": "statusUp",
 				"subject": "最大HP",
-				"value": 1.05,
-				"method": "multiply"
+				"value": 5,
+				"numberType": "percent"
 			},
 			{
 				"type": "statusUp",
 				"subject": "攻撃力",
-				"value": 1.03,
-				"method": "multiply"
+				"value": 3,
+				"numberType": "percent"
 			},
 			{
 				"type": "statusUp",
 				"subject": "最大MP",
-				"value": 1.05,
-				"method": "multiply"
+				"value": 5,
+				"numberType": "percent"
 			},
 			{
 				"type": "statusUp",
 				"subject": "魔力",
-				"value": 1.03,
-				"method": "multiply"
+				"value": 3,
+				"numberType": "percent"
 			}
 		],
 		"description": "最大HPと攻撃力、最大MPと魔力がそれぞれ上昇する"
@@ -8909,21 +8907,19 @@
 		"effects": [
 			{
 				"type": "statusUp",
-				"subject": "ジャンプ力",
-				"value": 1.45,
-				"method": "multiply"
+				"subject": "ジャンプ力率",
+				"value": 45
 			},
 			{
 				"type": "statusUp",
 				"subject": "回避",
-				"value": 1.1,
-				"method": "multiply"
+				"value": 10,
+				"numberType": "percent"
 			},
 			{
 				"type": "statusUp",
 				"subject": "移動速度",
-				"value": 10,
-				"method": "add"
+				"value": 10
 			},
 			{
 				"type": "moveMotionChange"
@@ -8936,14 +8932,12 @@
 		"effects": [
 			{
 				"type": "statusUp",
-				"subject": "魔法与ダメージ",
-				"method": "add",
+				"subject": "魔法与ダメージ率",
 				"value": 10
 			},
 			{
 				"type": "statusUp",
 				"subject": "ST自然回復",
-				"method": "add",
 				"value": 56.2
 			},
 			{ "type": "technique", "subject": "アンリミテッド フォース" }
@@ -8956,19 +8950,17 @@
 			{
 				"type": "statusUp",
 				"subject": "攻撃力",
-				"method": "multiply",
-				"value": 1.03
+				"numberType": "percent",
+				"value": 3
 			},
 			{
 				"type": "statusUp",
 				"subject": "クリティカル率",
-				"method": "add",
 				"value": 10
 			},
 			{
 				"type": "statusUp",
-				"subject": "物理与ダメージ",
-				"method": "add",
+				"subject": "物理与ダメージ率",
 				"value": 10
 			}
 		],
@@ -8980,13 +8972,12 @@
 			{
 				"type": "statusUp",
 				"subject": "耐全属性",
-				"method": "multiply",
-				"value": 1.1
+				"numberType": "percent",
+				"value": 10
 			},
 			{
 				"type": "statusUp",
-				"subject": "無属性効果",
-				"method": "add",
+				"subject": "無属性効果率",
 				"value": 20
 			}
 		],
@@ -8998,14 +8989,12 @@
 			{
 				"type": "statusUp",
 				"subject": "調教",
-				"method": "add",
 				"value": 20
 			},
 			{
 				"type": "statusUp",
-				"subject": "ペット経験値",
-				"method": "multiply",
-				"value": 1.2
+				"subject": "ペット経験値率",
+				"value": 20
 			}
 		],
 		"description": "調教スキルの効果とペットの取得経験値が大幅に増加する"
@@ -9020,21 +9009,20 @@
 		"effects": [
 			{
 				"type": "statusUp",
-				"subject": "物理与ダメージ",
-				"method": "add",
+				"subject": "物理与ダメージ率",
 				"value": 15
 			},
 			{
 				"type": "statusUp",
 				"subject": "命中",
-				"method": "multiply",
-				"value": 0.95
+				"numberType": "percent",
+				"value": -5
 			},
 			{
 				"type": "statusUp",
 				"subject": "回避",
-				"method": "multiply",
-				"value": 0.95
+				"numberType": "percent",
+				"value": -5
 			}
 		],
 		"description": "攻撃力依存のダメージが15%上昇するが、命中と回避が5%低下する"
@@ -9045,13 +9033,11 @@
 			{
 				"type": "statusUp",
 				"subject": "牙",
-				"method": "add",
 				"value": 15
 			},
 			{
 				"type": "statusUp",
 				"subject": "水中速度",
-				"method": "add",
 				"value": 15
 			}
 		],
@@ -9063,8 +9049,8 @@
 			{
 				"type": "statusUp",
 				"subject": "命中",
-				"method": "multiply",
-				"value": 1.15
+				"numberType": "percent",
+				"value": 15
 			},
 			{
 				"type": "delayCut",
@@ -9085,14 +9071,12 @@
 		"effects": [
 			{
 				"type": "statusUp",
-				"subject": "魔法与ダメージ",
-				"method": "add",
+				"subject": "魔法与ダメージ率",
 				"value": 10
 			},
 			{
 				"type": "statusUp",
 				"subject": "HP自然回復",
-				"method": "add",
 				"value": 157.5
 			}
 		],
@@ -9103,8 +9087,7 @@
 		"effects": [
 			{
 				"type": "statusUp",
-				"subject": "水属性効果",
-				"method": "add",
+				"subject": "水属性効果率",
 				"value": 10
 			},
 			{ "type": "others", "subject": "呼吸永続" }
@@ -9120,7 +9103,6 @@
 			{
 				"type": "statusUp",
 				"subject": "所持重量",
-				"method": "multiply",
 				"value": 0.8
 			}
 		],
@@ -9144,7 +9126,6 @@
 			{
 				"type": "statusUp",
 				"subject": "物まね",
-				"method": "add",
 				"value": 20
 			},
 			{
@@ -9160,15 +9141,14 @@
 		"effects": [
 			{
 				"type": "statusUp",
-				"subject": "物理与ダメージ",
-				"method": "add",
+				"subject": "物理与ダメージ率",
 				"value": 10
 			},
 			{
 				"type": "statusUp",
 				"subject": "回避",
-				"method": "multiply",
-				"value": 1.2
+				"numberType": "percent",
+				"value": 20
 			}
 		],
 		"description": "身体強化で物理ダメージが増加し、未来視で回避率が大幅に上昇する"
@@ -9179,14 +9159,12 @@
 			{
 				"type": "statusUp",
 				"subject": "回復",
-				"method": "multiply",
-				"value": 1.1
+				"value": 15
 			},
 			{
 				"type": "statusUp",
 				"subject": "神秘",
-				"method": "multiply",
-				"value": 1.1
+				"value": 15
 			},
 			{
 				"type": "costRatio",
@@ -9211,14 +9189,12 @@
 		"effects": [
 			{
 				"type": "statusUp",
-				"subject": "火属性効果",
-				"method": "add",
+				"subject": "火属性効果率",
 				"value": 10
 			},
 			{
 				"type": "statusUp",
-				"subject": "風属性効果",
-				"method": "add",
+				"subject": "風属性効果率",
 				"value": 10
 			},
 			{
@@ -9236,19 +9212,17 @@
 			{
 				"type": "statusUp",
 				"subject": "攻撃力",
-				"method": "multiply",
-				"value": 1.03
+				"numberType": "percent",
+				"value": 30
 			},
 			{
 				"type": "statusUp",
 				"subject": "攻撃ディレイ",
-				"method": "add",
 				"value": -10
 			},
 			{
 				"type": "statusUp",
 				"subject": "戦闘技術",
-				"method": "add",
 				"value": 10
 			}
 		],
@@ -9260,14 +9234,12 @@
 			{
 				"type": "statusUp",
 				"subject": "調教",
-				"method": "add",
 				"value": 20
 			},
 			{
 				"type": "statusUp",
-				"subject": "ペット経験値",
-				"method": "multiply",
-				"value": 1.1
+				"subject": "ペット経験値率",
+				"value": 10
 			}
 		],
 		"description": "調教スキルの効果とペットの取得経験値が少し上昇する"
@@ -9285,8 +9257,7 @@
 			{
 				"type": "statusUp",
 				"subject": "移動速度",
-				"method": "multiply",
-				"value": 1.2
+				"value": 20
 			}
 		],
 		"description": "高速で移動する巨大なトンボに捕獲された獲物"
@@ -9297,13 +9268,11 @@
 			{
 				"type": "statusUp",
 				"subject": "死魔",
-				"method": "add",
 				"value": 15
 			},
 			{
 				"type": "statusUp",
 				"subject": "暗黒命令",
-				"method": "add",
 				"value": 15
 			}
 		],
@@ -9321,38 +9290,38 @@
 			{
 				"type": "statusUp",
 				"subject": "攻撃力",
-				"method": "multiply",
-				"value": 1.03
+				"numberType": "percent",
+				"value": 30
 			},
 			{
 				"type": "statusUp",
 				"subject": "魔力",
-				"method": "multiply",
-				"value": 1.03
+				"numberType": "percent",
+				"value": 30
 			},
 			{
 				"type": "statusUp",
 				"subject": "命中",
-				"method": "multiply",
-				"value": 1.03
+				"numberType": "percent",
+				"value": 30
 			},
 			{
 				"type": "statusUp",
 				"subject": "回避",
-				"method": "multiply",
-				"value": 1.03
+				"numberType": "percent",
+				"value": 30
 			},
 			{
 				"type": "statusUp",
 				"subject": "防御力",
-				"method": "multiply",
-				"value": 1.03
+				"numberType": "percent",
+				"value": 30
 			},
 			{
 				"type": "statusUp",
 				"subject": "耐全属性",
-				"method": "multiply",
-				"value": 1.03
+				"numberType": "percent",
+				"value": 30
 			}
 		]
 	},
@@ -9361,21 +9330,18 @@
 		"effects": [
 			{
 				"type": "statusUp",
-				"subject": "火属性効果",
-				"value": 10,
-				"method": "add"
+				"subject": "火属性効果率",
+				"value": 10
 			},
 			{
 				"type": "statusUp",
-				"subject": "物理与ダメージ",
-				"value": 10,
-				"method": "add"
+				"subject": "物理与ダメージ率",
+				"value": 10
 			},
 			{
 				"type": "statusUp",
 				"subject": "ST自然回復",
-				"value": 41.25,
-				"method": "add"
+				"value": 41.25
 			}
 		],
 		"description": "火属性と攻撃力依存の物理ダメージが上昇して、スタミナの自然回復量が増加する"
@@ -9386,26 +9352,24 @@
 			{
 				"type": "statusUp",
 				"subject": "攻撃力",
-				"value": 1.03,
-				"method": "multiply"
+				"value": 30,
+				"numberType": "percent"
 			},
 			{
 				"type": "statusUp",
 				"subject": "魔力",
-				"value": 1.03,
-				"method": "multiply"
+				"value": 30,
+				"numberType": "percent"
 			},
 			{
 				"type": "statusUp",
 				"subject": "ST自然回復",
-				"value": 56,
-				"method": "add"
+				"value": 56
 			},
 			{
 				"type": "statusUp",
 				"subject": "MP自然回復",
-				"value": 56,
-				"method": "add"
+				"value": 56
 			}
 		],
 		"description": "攻撃力と魔力が上昇して、スタミナとMPの自然回復量が増加する"
@@ -9422,26 +9386,22 @@
 			{
 				"type": "statusUp",
 				"subject": "破壊",
-				"value": 10,
-				"method": "add"
+				"value": 10
 			},
 			{
 				"type": "statusUp",
 				"subject": "強化",
-				"value": 10,
-				"method": "add"
+				"value": 10
 			},
 			{
 				"type": "statusUp",
 				"subject": "神秘",
-				"value": 10,
-				"method": "add"
+				"value": 10
 			},
 			{
 				"type": "statusUp",
 				"subject": "回復",
-				"value": 10,
-				"method": "add"
+				"value": 10
 			}
 		],
 		"description": "破壊/強化/神秘/回復の4魔法効果が上昇する"
@@ -9456,14 +9416,12 @@
 			{
 				"type": "statusUp",
 				"subject": "移動速度",
-				"value": 10,
-				"method": "add"
+				"value": 10
 			},
 			{
 				"type": "statusUp",
 				"subject": "ST自然回復",
-				"value": 42.25,
-				"method": "add"
+				"value": 42.25
 			}
 		],
 		"description": "待機モーションが変化し、移動速度とスタミナの自然回復速度が上昇する"

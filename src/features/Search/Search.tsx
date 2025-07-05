@@ -90,8 +90,8 @@ export function Search({
 								return {
 									subject: e.subject,
 									value: e.value,
-									method: e.method,
-								};
+									method: e.numberType === "percent" ? "multiply" : "add",
+								} as const;
 							}
 							return [];
 						}),
@@ -180,7 +180,9 @@ export function Search({
 				searchResults.flatMap((item) => [
 					...item.effects.map((e) => `${e.subject}-add`),
 					...(item.buff?.effects?.flatMap((e) =>
-						e.type === "statusUp" ? `${e.subject}-${e.method}` : [],
+						e.type === "statusUp"
+							? `${e.subject}${e.numberType ? `-${e.numberType}` : ""}`
+							: [],
 					) ?? []),
 				]),
 			),
@@ -226,7 +228,7 @@ export function Search({
 					}
 					effects[e.subject].push({
 						value: e.value,
-						method: e.method,
+						method: e.numberType === "percent" ? "multiply" : "add",
 					});
 				});
 
