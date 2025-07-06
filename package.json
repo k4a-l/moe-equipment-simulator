@@ -15,7 +15,9 @@
 		"format": "biome format --write  src assets ",
 		"validate:json": "jsonschema validate assets/schemas/shields.schema.json assets/shields.json && jsonschema validate assets/schemas/weapons.schema.json assets/weapons.json && jsonschema validate assets/schemas/defences.schema.json assets/defences.json && jsonschema validate assets/schemas/buffs.schema.json assets/buffs.json",
 		"prepare": "husky install",
-		"tsc-watch": "tsc --noEmit --skipLibCheck false --watch"
+		"tsc": "tsc --noEmit --skipLibCheck false",
+		"tsc-watch": "tsc --noEmit --skipLibCheck false --watch",
+		"pre-push": "run-s ci validate:json tsc"
 	},
 	"dependencies": {
 		"@radix-ui/react-accordion": "^1.2.11",

@@ -6,6 +6,7 @@ import {
 import { useRef } from "react";
 import type z from "zod";
 import type { frourioSpec } from "@/app/api/search/result/frourio";
+import { apiUrl } from "@/features/api/apiClient";
 import type { searchConditionQuerySchemaWithPage } from "../searchCondition/type";
 
 const key = "search/result";
@@ -24,7 +25,7 @@ export const useSearchResultQuery = (
 	>({
 		queryKey: [key, query],
 		queryFn: () =>
-			fetch(`http://localhost:3000/api/${key}`, {
+			fetch(`${apiUrl}/${key}`, {
 				body: JSON.stringify(query),
 				headers: {
 					"Content-Type": "application/json",

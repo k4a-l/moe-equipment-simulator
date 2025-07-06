@@ -1,2 +1,2 @@
 #!/bin/sh
-npm run ci && npm run validate:json
+npm run pre-push

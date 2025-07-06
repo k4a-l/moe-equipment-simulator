@@ -1,6 +1,7 @@
 import { type DefaultError, useQuery } from "@tanstack/react-query";
 import type z from "zod";
 import type { frourioSpec } from "@/app/api/item/frourio";
+import { apiUrl } from "../api/apiClient";
 
 const key = "item";
 
@@ -13,7 +14,7 @@ export const useItems = (query: z.infer<typeof frourioSpec.post.body>) => {
 	>({
 		queryKey: [key, query],
 		queryFn: () =>
-			fetch(`http://localhost:3000/api/${key}`, {
+			fetch(`${apiUrl}/${key}`, {
 				body: JSON.stringify(query),
 				headers: {
 					"Content-Type": "application/json",

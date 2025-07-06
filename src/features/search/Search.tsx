@@ -49,7 +49,9 @@ export function Search({
 			effectsSubjectsResponse.isValidating ? (
 				<LoaderIcon size="1em" className="animate-spin " />
 			) : effectsSubjectsResponse.error ? (
-				<p className="text-red-500">{effectsSubjectsResponse.error}</p>
+				<p className="text-red-500">
+					{JSON.stringify(effectsSubjectsResponse.error)}
+				</p>
 			) : (
 				effectsSubjectsResponse.data && (
 					<SearchConditionContainer
