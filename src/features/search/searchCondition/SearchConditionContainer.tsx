@@ -6,6 +6,7 @@ import {
 	useMemo,
 	useState,
 } from "react";
+import { useSessionStorage } from "usehooks-ts";
 import type z from "zod";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -24,22 +25,39 @@ import {
 	sortStrategies,
 } from "./type";
 
+export const createSearchConditionKey = (key: string) =>
+	`search-condition-${key}`;
+
 export const SearchConditionContainer = ({
 	conditions,
 	setConditions,
 	effectsSubjects,
 	execSearch,
+	staticPart,
 }: {
 	conditions: SearchConditionType[];
 	setConditions: Dispatch<SetStateAction<SearchConditionType[]>>;
 	effectsSubjects: EffectSubjectType[];
 	execSearch: (query: z.infer<typeof searchConditionQuerySchema>) => void;
+	staticPart?: string;
 }) => {
-	const [partsConditions, setPartsConditions] = useState<string[]>([]);
-	const [omitWords, setOmitWords] = useState<string>();
-	const [sort, setSort] = useState<z.infer<typeof SortSchema>>({
-		strategy: "desc",
-	});
+	const [partsConditions, setPartsConditions] = useState<string[]>(
+		staticPart ? [staticPart] : [],
+	);
+	const [omitWords, setOmitWords] = useSessionStorage<string>(
+		createSearchConditionKey("omitWords"),
+		"",
+	);
+	const [includesWords, setIncludesWords] = useSessionStorage<string>(
+		createSearchConditionKey("includesWords"),
+		"",
+	);
+	const [sort, setSort] = useSessionStorage<z.infer<typeof SortSchema>>(
+		createSearchConditionKey("sort"),
+		{
+			strategy: "desc",
+		},
+	);
 
 	const deleteSearchCondition = useCallback(
 		(uuid: string) => {
@@ -75,10 +93,18 @@ export const SearchConditionContainer = ({
 		execSearch({
 			partsConditions: partsConditions,
 			omitWords,
+			includesWords,
 			searchConditions: validationResult.data,
 			sort,
 		});
-	}, [execSearch, validationResult, partsConditions, omitWords, sort]);
+	}, [
+		execSearch,
+		validationResult,
+		partsConditions,
+		omitWords,
+		sort,
+		includesWords,
+	]);
 
 	return (
 		<div className="flex flex-col gap-4">
@@ -111,6 +137,7 @@ export const SearchConditionContainer = ({
 					</Button>
 				</div>
 				<CustomReactSelect
+					isDisabled={!!staticPart}
 					options={[WEAPON_PARTS, DEFENCE_PARTS].flat().map((part) => ({
 						value: part.value,
 						label: part.value,
@@ -126,6 +153,17 @@ export const SearchConditionContainer = ({
 					closeMenuOnSelect={false}
 				/>
 				<div className="w-2"></div>
+			</div>
+			<div className="flex flex-col gap-2">
+				<p>包含語句</p>
+				<div className="flex items-stretch ">
+					<Input
+						placeholder="名前、説明、特殊条件などをカンマ区切り"
+						value={includesWords}
+						onChange={(e) => setIncludesWords(e.target.value)}
+						className="rounded-l-none shadow-none bg-white"
+					></Input>
+				</div>
 			</div>
 			<div className="flex flex-col gap-2">
 				<p>除外語句</p>
@@ -232,13 +270,7 @@ export const SearchConditionContainer = ({
 						variant={"ghost"}
 						size={"sm"}
 						onClick={() => {
-							setConditions((prev) => [
-								...prev,
-								{
-									uuid: crypto.randomUUID(),
-									valueType: "add",
-								},
-							]);
+							setConditions((prev) => [...prev, { uuid: crypto.randomUUID() }]);
 						}}
 					>
 						<PlusIcon />

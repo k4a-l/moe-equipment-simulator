@@ -19,18 +19,18 @@ export default function RootLayout({
 	return (
 		<html lang="ja">
 			<head></head>
-			<Provider>
-				<div className="flex justify-center p-2 bg-gray-50 min-h-screen">
-					<div className="flex flex-col p-2 max-w-6xl w-full">
-						<body>
+			<body>
+				<Provider>
+					<div className="flex justify-center p-2 bg-gray-50 min-h-screen">
+						<div className="flex flex-col p-2 max-w-11/12 w-full">
 							<div className="flex gap-2 w-auto ">
 								<NavigationTab />
 							</div>
 							<div className="pt-2">{children}</div>
-						</body>
+						</div>
 					</div>
-				</div>
-			</Provider>
+				</Provider>
+			</body>
 		</html>
 	);
 }

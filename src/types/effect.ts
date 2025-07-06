@@ -84,6 +84,7 @@ type EffectSubject = z.infer<typeof effectSubjectSchema>;
 export const effectsSchema = z.object({
 	subject: effectSubjectSchema, // 効果対象
 	value: z.number(), // 効果値
+	numberType: z.literal("percent").optional(), // 効果値のタイプ（オプション、percentの場合は乗算）
 });
 
 export type Effect = z.infer<typeof effectsSchema>;

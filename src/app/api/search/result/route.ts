@@ -1,7 +1,10 @@
+import path from "node:path";
+import { getFileList } from "@/features/api/getFile";
 import { injectBuff } from "@/features/dataProccess/buff";
-import { joinEffectOfItem } from "@/features/Item/util";
+import { getEffect, joinEffectOfItem } from "@/features/Item/util";
 import {
 	searchByEffect,
+	searchByIncludesWords,
 	searchByOmitWords,
 	searchByParts,
 } from "@/features/search/util";
@@ -13,15 +16,24 @@ const { weapons, shields, defences, buffs } = getLocalData();
 
 export const { POST } = createRoute({
 	post: async ({ body }) => {
-		const { omitWords, partsConditions, searchConditions, pageIndex, sort } =
-			body;
+		await getFileList(process.cwd());
+		await getFileList(path.join(process.cwd(), "assets"));
+
+		const {
+			includesWords,
+			omitWords,
+			partsConditions,
+			searchConditions,
+			pageIndex,
+			sort,
+		} = body;
 
 		const allItems: ItemWithBuff[] = [...weapons, ...shields, ...defences].map(
 			(item) => injectBuff(buffs, item),
 		);
 
 		const result = allItems.filter((item) => {
-			// 除外ワードがある場合はフィルタリング
+			if (!searchByIncludesWords(item, includesWords)) return false;
 			if (!searchByOmitWords(item, omitWords)) return false;
 			if (!searchByParts(item, partsConditions)) return false;
 			if (!searchByEffect(item, searchConditions)) return false;
@@ -32,24 +44,24 @@ export const { POST } = createRoute({
 		const sortedResult = result
 			.filter((item) => {
 				if (!sort?.by) return true;
-				const value =
-					joinEffectOfItem(item)[
-						`${sort.by}-${sort.isPercentNumber ? "multiply" : "add"}`
-					]?.value;
+				const value = getEffect(joinEffectOfItem(item), {
+					subject: sort.by,
+					numberType: sort.isPercentNumber ? "percent" : undefined,
+				})?.value;
 				if (value === undefined) return false;
 				return true;
 			})
 			.sort((a, b) => {
 				if (!sort?.by) return 0;
 
-				const aValue =
-					joinEffectOfItem(a)[
-						`${sort.by}-${sort.isPercentNumber ? "multiply" : "add"}`
-					]?.value;
-				const bValue =
-					joinEffectOfItem(b)[
-						`${sort.by}-${sort.isPercentNumber ? "multiply" : "add"}`
-					]?.value;
+				const aValue = getEffect(joinEffectOfItem(a), {
+					subject: sort.by,
+					numberType: sort.isPercentNumber ? "percent" : undefined,
+				})?.value;
+				const bValue = getEffect(joinEffectOfItem(b), {
+					subject: sort.by,
+					numberType: sort.isPercentNumber ? "percent" : undefined,
+				})?.value;
 
 				if (sort.strategy === "asc") {
 					return (aValue ?? 0) - (bValue ?? 0);

@@ -2,30 +2,22 @@ import { object, z } from "zod";
 import { effectSubjectSchema } from "@/types/effect";
 import { strictKeys } from "@/utils/objects";
 
-export type SearchConditionType = {
-	uuid: string;
-	part?: string[]; // 部位
-	subject?: string; // 検索対象
-	minValue?: number; // 最小値
-	maxValue?: number; // 最大値
-	valueType: "add" | "multiply"; // 値タイプ
-};
+const searchConditionSchemaBase = z.object({
+	uuid: z.string(),
+	part: z.array(z.string()).optional(), // 部位
+	subject: effectSubjectSchema.optional(), // 検索対象
+	minValue: z.number().optional(), // 最小値
+	maxValue: z.number().optional(), // 最大値
+	numberType: z.enum(["percent"]).optional(), // 値タイプ
+});
 
-export const searchConditionSchema = z
-	.object({
-		uuid: z.string(),
-		subject: z.string({ required_error: "" }),
-		minValue: z.number().optional(),
-		maxValue: z.number().optional(),
-		valueType: z.enum(["add", "multiply"]),
-	})
-	.superRefine((args, ctx) => {
-		const { minValue, maxValue, subject, valueType, uuid } = args;
+export type SearchConditionType = z.infer<typeof searchConditionSchemaBase>;
 
-		if (
-			(minValue || subject || maxValue || valueType) &&
-			subject === undefined
-		) {
+export const searchConditionSchema = searchConditionSchemaBase.superRefine(
+	(args, ctx) => {
+		const { minValue, maxValue, subject, uuid } = args;
+
+		if ((minValue || subject || maxValue) && subject === undefined) {
 			ctx.addIssue({
 				code: z.ZodIssueCode.custom,
 				message: "対象ステータスが未指定です",
@@ -50,7 +42,8 @@ export const searchConditionSchema = z
 				path: ["minValue", "maxValue"],
 			});
 		}
-	});
+	},
+);
 
 export const searchConditionsSchema = z
 	.array(searchConditionSchema)
@@ -76,7 +69,8 @@ export const SortSchema = object({
 
 export const searchConditionQuerySchema = z.object({
 	partsConditions: z.array(z.string()),
-	omitWords: z.string().optional(),
+	omitWords: z.string(),
+	includesWords: z.string(),
 	sort: SortSchema.optional(),
 	searchConditions: searchConditionsSchema,
 });

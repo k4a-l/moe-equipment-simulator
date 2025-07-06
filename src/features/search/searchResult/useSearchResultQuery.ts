@@ -6,10 +6,7 @@ import {
 import { useRef } from "react";
 import type z from "zod";
 import type { frourioSpec } from "@/app/api/search/result/frourio";
-import { apiClient } from "@/features/api/apiClient";
 import type { searchConditionQuerySchemaWithPage } from "../searchCondition/type";
-
-const post = apiClient["search/result"].$post;
 
 const key = "search/result";
 
@@ -41,7 +38,7 @@ export const useSearchResultQuery = (
 					previousQuery.current = query;
 				}),
 		// @ts-expect-error
-		placeholderData: (prev) => {
+		placeholderData: () => {
 			const c = queryClient.getQueryData([key, previousQuery.current]);
 			return c as z.infer<(typeof frourioSpec.post.res)["200"]["body"]>;
 		},

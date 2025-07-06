@@ -5,25 +5,17 @@ import {
 	flexRender,
 	getCoreRowModel,
 	type PaginationState,
-	type TableOptions,
 	useReactTable,
 } from "@tanstack/react-table";
 import {
 	AllCommunityModule,
 	ColumnAutoSizeModule,
 	ModuleRegistry,
-	type RowSelectedEvent,
-	type SelectionChangedEvent,
 } from "ag-grid-community";
-import type { AgGridReactProps } from "ag-grid-react"; // React Data Grid Component
-import { LoaderIcon } from "lucide-react";
-import {
-	type Dispatch,
-	type SetStateAction,
-	useCallback,
-	useMemo,
-} from "react";
+import { LoaderIcon, MousePointerClickIcon } from "lucide-react";
+import { type Dispatch, type SetStateAction, useMemo } from "react";
 import type z from "zod";
+import { Button } from "@/components/ui/button";
 import {
 	Pagination,
 	PaginationContent,
@@ -39,7 +31,7 @@ import {
 	TableHeader,
 	TableRow,
 } from "@/components/ui/table";
-import { ItemDetail } from "@/features/sheet/Row";
+import { ItemDetail } from "@/features/equip-sim/Row";
 import { EFFECT_SUBJECTS } from "@/types/effect";
 import type { ItemWithBuff } from "@/types/Item";
 import type { searchConditionQuerySchema } from "../searchCondition/type";
@@ -47,16 +39,18 @@ import { useSearchResultQuery } from "./useSearchResultQuery";
 
 ModuleRegistry.registerModules([AllCommunityModule, ColumnAutoSizeModule]);
 
-type Data = Record<string, unknown>;
+type Data = { name: string; item: ItemWithBuff } & Record<string, unknown>;
 
 const columnHelper = createColumnHelper<Data>();
 
 type SearchResultProps = {
 	pagination: PaginationState;
 	setPagination: Dispatch<SetStateAction<PaginationState>>;
+	onSelect?: (item: ItemWithBuff) => void;
 };
 
 function SearchResult({
+	onSelect,
 	searchResults,
 	allNumber,
 	pagination,
@@ -92,9 +86,9 @@ function SearchResult({
 			.map((e) => `${e.subjectName}${e.numberType === "percent" ? "(%)" : ""}`);
 	}, [searchResults]);
 
-	const rowData = useMemo(
+	const rowData = useMemo<Data[]>(
 		() =>
-			searchResults.map((r) => {
+			searchResults.map((r): Data => {
 				type Effect = { value: number; method: string };
 				const effects: Record<string, Effect[]> = {};
 
@@ -154,12 +148,13 @@ function SearchResult({
 				return {
 					...mergedEffectsFormatted,
 					name: r.name,
+					item: r,
 				};
 			}),
 		[searchResults],
 	);
 
-	const columns = useMemo<TableOptions<Data>["columns"]>(
+	const columns = useMemo(
 		() => [
 			columnHelper.accessor("name", {
 				cell: (info) => {
@@ -170,7 +165,18 @@ function SearchResult({
 							) : (
 								""
 							)}
-							{info.getValue()}
+							{onSelect ? (
+								<Button
+									onClick={() => onSelect(info.row.original.item)}
+									className="w-full justify-start"
+									variant={"outline"}
+								>
+									<MousePointerClickIcon />
+									{info.getValue()}
+								</Button>
+							) : (
+								info.getValue()
+							)}
 						</div>
 					);
 				},
@@ -196,28 +202,8 @@ function SearchResult({
 				size: 10,
 			}),
 		],
-		[searchResultsSubjects, isLoading, searchResults.find],
+		[searchResultsSubjects, isLoading, searchResults.find, onSelect],
 	);
-
-	const rowSelection = useMemo<AgGridReactProps["rowSelection"]>(() => {
-		return {
-			mode: "singleRow",
-			enableClickSelection: true,
-		};
-	}, []);
-
-	const onRowSelected = useCallback((event: RowSelectedEvent) => {
-		console.log(
-			"row " +
-				event.node.data.athlete +
-				" selected = " +
-				event.node.isSelected(),
-		);
-	}, []);
-
-	const onSelectionChanged = useCallback((event: SelectionChangedEvent) => {
-		const rowCount = event.selectedNodes?.length;
-	}, []);
 
 	const table = useReactTable({
 		data: rowData,
@@ -225,9 +211,8 @@ function SearchResult({
 		getCoreRowModel: getCoreRowModel(),
 		manualPagination: true,
 		rowCount: allNumber,
-		onPaginationChange: setPagination, //update the pagination state when internal APIs mutate the pagination state
+		onPaginationChange: setPagination,
 		state: {
-			//...
 			pagination,
 		},
 	});
@@ -351,6 +336,7 @@ const SearchResultWithQuery = ({
 	searchConditionQuery,
 	pagination,
 	setPagination,
+	onSelect,
 }: {
 	searchConditionQuery: z.infer<typeof searchConditionQuerySchema>;
 } & SearchResultProps) => {
@@ -382,6 +368,7 @@ const SearchResultWithQuery = ({
 			pagination={pagination}
 			setPagination={setPagination}
 			isLoading={response.isLoading || response.isFetching}
+			onSelect={onSelect}
 		/>
 	);
 };

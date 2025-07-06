@@ -6,8 +6,10 @@ export const CustomReactSelect: typeof ReactSelectBase = (props) => {
 	return (
 		<ReactSelectBase
 			menuPlacement="auto"
-			menuPosition="fixed"
+			menuPosition="absolute"
 			className="w-full"
+			// @ts-expect-error
+			maxMenuHeight={"100%"}
 			styles={{
 				control(base, state) {
 					return {
@@ -37,6 +39,7 @@ export const CustomReactSelect: typeof ReactSelectBase = (props) => {
 				menuPortal: (base, state) => ({
 					...base,
 					zIndex: 9999,
+
 					...props.styles?.menuPortal?.(base, state),
 				}),
 			}}

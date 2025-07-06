@@ -1,9 +1,13 @@
 "use client";
 
-import { useCallback, useState } from "react";
+import { LoaderIcon } from "lucide-react";
+import { type ComponentProps, useCallback, useState } from "react";
+import { useSessionStorage } from "usehooks-ts";
 import type z from "zod";
-import type { EffectSubjectType } from "@/types/effect";
-import { SearchConditionContainer } from "./searchCondition/SearchConditionContainer";
+import {
+	createSearchConditionKey,
+	SearchConditionContainer,
+} from "./searchCondition/SearchConditionContainer";
 import type {
 	SearchConditionType,
 	searchConditionQuerySchema,
@@ -11,7 +15,11 @@ import type {
 import { useSearchConditions } from "./searchCondition/useSearchConditionQuery";
 import { SearchResult } from "./searchResult/SearchResult";
 
-export function Search() {
+export function Search({
+	onSelect,
+	staticPart,
+}: Pick<ComponentProps<typeof SearchResult>, "onSelect"> &
+	Pick<ComponentProps<typeof SearchConditionContainer>, "staticPart">) {
 	const [searchConditionQuery, setSearchConditionQuery] = useState<
 		z.infer<typeof searchConditionQuerySchema> | undefined
 	>(undefined);
@@ -28,35 +36,37 @@ export function Search() {
 		[],
 	);
 
-	const effectsSubjects: EffectSubjectType[] =
-		useSearchConditions().data?.effectsSubjects ?? [];
+	const effectsSubjectsResponse = useSearchConditions();
 
-	const [searchConditions, setSearchConditions] = useState<
-		SearchConditionType[]
-	>([{ uuid: crypto.randomUUID(), valueType: "add" }]);
+	const [conditions, setConditions] = useSessionStorage<SearchConditionType[]>(
+		createSearchConditionKey("conditions"),
+		[{ uuid: crypto.randomUUID() }],
+	);
 
 	return (
 		<div className="flex gap-2 flex-col">
-			{/* <Accordion type="multiple" defaultValue={["item-1"]}>
-				<AccordionItem value="item-1" defaultChecked>
-					<AccordionTrigger> */}
-			{/* <p className="text-2xl">検索条件</p> */}
-			{/* </AccordionTrigger>
-					<AccordionContent> */}
-			<SearchConditionContainer
-				conditions={searchConditions}
-				setConditions={setSearchConditions}
-				effectsSubjects={effectsSubjects}
-				execSearch={execSearch}
-			/>
-			{/* </AccordionContent>
-				</AccordionItem>
-			</Accordion> */}
+			{effectsSubjectsResponse.isLoading ||
+			effectsSubjectsResponse.isValidating ? (
+				<LoaderIcon size="1em" className="animate-spin " />
+			) : effectsSubjectsResponse.error ? (
+				<p className="text-red-500">{effectsSubjectsResponse.error}</p>
+			) : (
+				effectsSubjectsResponse.data && (
+					<SearchConditionContainer
+						conditions={conditions}
+						setConditions={setConditions}
+						effectsSubjects={effectsSubjectsResponse.data.effectsSubjects}
+						execSearch={execSearch}
+						staticPart={staticPart}
+					/>
+				)
+			)}
 			{searchConditionQuery && (
 				<SearchResult
 					searchConditionQuery={searchConditionQuery}
 					pagination={pagination}
 					setPagination={setPagination}
+					onSelect={onSelect}
 				/>
 			)}
 		</div>

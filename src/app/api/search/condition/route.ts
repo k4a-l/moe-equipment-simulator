@@ -1,16 +1,16 @@
 import { injectBuff } from "@/features/dataProccess/buff";
-import { EFFECT_SUBJECTS } from "@/types/effect";
+import { EFFECT_SUBJECTS, type EffectSubjectType } from "@/types/effect";
 import { getLocalData } from "../../getLocalData";
 import { createRoute } from "./frourio.server";
 
 const { weapons, shields, defences, buffs } = getLocalData();
 
-const effectsSubjects = [
+const effectsSubjects: EffectSubjectType[] = [
 	...new Set(
 		[weapons, shields, defences]
 			.flat()
 			.map((item) => injectBuff(buffs, item))
-			.flatMap((item): string[] =>
+			.flatMap((item): EffectSubjectType[] =>
 				[
 					item.effects.map((e) => e.subject),
 					item.buff?.effects?.flatMap((e) =>

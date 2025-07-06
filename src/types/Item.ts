@@ -11,6 +11,11 @@ export const EQUIPMENT_TYPE = {
 	defences: "defences",
 } as const;
 
+export const equipmentTypeSchema = z.union([
+	z.literal(EQUIPMENT_TYPE.shields),
+	z.literal(EQUIPMENT_TYPE.weapons),
+	z.literal(EQUIPMENT_TYPE.defences),
+]);
 export type EquipmentType =
 	(typeof EQUIPMENT_TYPE)[keyof typeof EQUIPMENT_TYPE];
 

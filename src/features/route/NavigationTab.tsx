@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 
 const navigationTabs = [
 	{ href: "/search", label: "検索" },
-	{ href: "/equ-sim", label: "構成" },
+	{ href: "/equip-sim", label: "構成" },
 ];
 
 export const NavigationTab = () => {

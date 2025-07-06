@@ -9,3 +9,9 @@ export const strictEntries = <T extends { [key: string]: unknown }>(
 ): [keyof T, T[keyof T]][] => {
 	return Object.entries(obj) as [keyof T, T[keyof T]][];
 };
+
+export const strictFromEntries = <T extends { [key: string]: unknown }>(
+	entries: [keyof T, T[keyof T]][],
+): T => {
+	return Object.fromEntries(entries) as T;
+};

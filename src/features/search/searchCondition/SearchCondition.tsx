@@ -1,8 +1,8 @@
 import { produce } from "immer";
 import { memo, type SetStateAction, useMemo, useState } from "react";
-import ReactSelect from "react-select";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import { CustomReactSelect } from "@/components/ui/reactSelect";
 import {
 	Select,
 	SelectContent,
@@ -10,6 +10,7 @@ import {
 	SelectTrigger,
 	SelectValue,
 } from "@/components/ui/select";
+import type { EffectSubjectType } from "@/types/effect";
 import { type SearchConditionType, searchConditionSchema } from "./type";
 
 export const SearchCondition = memo(
@@ -26,7 +27,7 @@ export const SearchCondition = memo(
 			id: string,
 			newCondition: SetStateAction<SearchConditionType>,
 		) => void;
-		effectsSubjects: string[];
+		effectsSubjects: EffectSubjectType[];
 		deleteFunc: (id: string) => void;
 	}) => {
 		const [_open, _setOpen] = useState(false);
@@ -46,47 +47,12 @@ export const SearchCondition = memo(
 				)}
 
 				<div className="flex items-center gap-2 ">
-					<ReactSelect
-						menuPlacement="auto"
-						menuPosition="fixed"
+					<CustomReactSelect
 						options={effectsSubjects.map((subject) => ({
 							value: subject,
 							label: subject,
 						}))}
-						className="w-full"
-						styles={{
-							control(base) {
-								return {
-									...base,
-									// 折り返さない
-									whiteSpace: "nowrap",
-									textOverflow: "ellipsis",
-									overflow: "hidden",
-									cursor: "pointer",
-									minWidth: "200px",
-									borderColor: "var(--border)",
-								};
-							},
-							menuList: (base) => ({
-								...base,
-								height: "1000px",
-							}),
-							option: (styles) => ({
-								...styles,
-								cursor: "pointer",
-							}),
-							menu: (base) => ({
-								...base,
-								width: "max-content",
-								minWidth: "100%",
-								height: "max-content",
-							}),
-							menuPortal: (base) => ({ ...base, zIndex: 9999 }),
-						}}
 						placeholder="対象ステータス"
-						components={{
-							IndicatorSeparator: () => null,
-						}}
 						value={{ label: condition.subject, value: condition.subject }}
 						onChange={(v) => {
 							setCondition(condition.uuid, (prev) => ({
@@ -98,7 +64,7 @@ export const SearchCondition = memo(
 					<Input
 						type="number"
 						className="w-25 bg-white"
-						value={condition.minValue}
+						value={condition.minValue ?? ""}
 						onChange={(e) => {
 							const value =
 								e.target.value === "" ? undefined : Number(e.target.value);
@@ -113,7 +79,7 @@ export const SearchCondition = memo(
 					<Input
 						type="number"
 						className="w-25 bg-white"
-						value={condition.maxValue}
+						value={condition.maxValue ?? ""}
 						onChange={(e) => {
 							const value =
 								e.target.value === "" ? undefined : Number(e.target.value);
@@ -125,11 +91,11 @@ export const SearchCondition = memo(
 						}}
 					></Input>
 					<Select
-						value={condition.valueType}
+						value={condition.numberType ?? "static"}
 						onValueChange={(v) => {
 							setCondition(condition.uuid, (prev) =>
 								produce(prev, (draft) => {
-									draft.valueType = v as SearchConditionType["valueType"];
+									draft.numberType = v === "percent" ? "percent" : undefined;
 								}),
 							);
 						}}
@@ -138,8 +104,8 @@ export const SearchCondition = memo(
 							<SelectValue placeholder="タイプ" />
 						</SelectTrigger>
 						<SelectContent>
-							<SelectItem value="add">実数</SelectItem>
-							<SelectItem value="multiply">%</SelectItem>
+							<SelectItem value="static">実数</SelectItem>
+							<SelectItem value="percent">%</SelectItem>
 						</SelectContent>
 					</Select>
 					<Button

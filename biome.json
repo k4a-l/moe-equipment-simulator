@@ -6,7 +6,8 @@
 		"useIgnoreFile": false
 	},
 	"files": {
-		"ignoreUnknown": false
+		"ignoreUnknown": false,
+		"includes": ["**", "!**/frourio.client.ts", "!**/frourio.server.ts"]
 	},
 	"formatter": {
 		"enabled": true,
