@@ -1,11 +1,10 @@
 import z from "zod";
 import {
-	ALL_SKILLS,
 	type EFFECT_SUBJECTS,
 	effectSubjectSchema,
 	MANUFACTURE_PROCESS,
-	MANUFACTURE_SKILLS,
-} from "./Item";
+} from "./effect";
+import { ALL_SKILLS, MANUFACTURE_SKILLS } from "./skill";
 
 // ------------------ バフ ------------------ //
 const statusUpBuffSchema = z.object({
@@ -172,6 +171,7 @@ const STATUS_UP_CALC_METHODS = {
 	満腹度: "add",
 	ピッキング失敗回数補正: "add",
 	ピッキング回転速度補正: "add",
+	攻撃範囲増加: "add", // 確認済み
 } satisfies Record<
 	(typeof EFFECT_SUBJECTS)[number]["_type"],
 	"add" | "multiply"
@@ -202,6 +202,11 @@ const moveMotionChangeBuff = z.object({
 	description: z.string().optional(),
 });
 
+const techniqueMotionChangeBuff = z.object({
+	type: z.literal("techniqueMotionChange"),
+	description: z.string().optional(),
+});
+
 const recoveryBuff = z.object({
 	type: z.literal("recovery"),
 	subject: z.union([z.literal("MP"), z.literal("HP"), z.literal("SP")]),
@@ -217,7 +222,7 @@ const costRatioBuff = z.object({
 
 const delayCutBuff = z.object({
 	type: z.literal("delayCut"),
-	subject: z.union(ALL_SKILLS),
+	subject: z.union([...ALL_SKILLS, z.literal("アイテム使用")]),
 	value: z.number(),
 });
 
@@ -230,8 +235,30 @@ const manufactureBuff = z.object({
 
 const techniqueBuff = z.object({
 	type: z.literal("technique"),
-	subject: z.string(), // 技能名
+	subject: z.string(),
 });
+
+const followAttackBuff = z.object({
+	type: z.literal("followAttack"),
+	subject: z.string(),
+});
+
+const preventBuff = z.object({
+	type: z.literal("prevent"),
+	subject: z.union([
+		z.literal("満腹度減少"),
+		z.literal(" 潤喉度減少"),
+		z.literal("水中呼吸減少"),
+	]),
+	value: z.number(),
+});
+
+const damageUpBuff = z.object({
+	type: z.literal("damageUp"),
+	subject: z.union([z.literal("悪魔"), z.literal("巨人"), z.literal("鳥")]),
+	value: z.number(), // ％表記
+});
+
 export const buffSchema = z.union([
 	z.object({
 		name: z.string(),
@@ -243,6 +270,7 @@ export const buffSchema = z.union([
 		name: z.string(),
 		description: z.string(),
 		unedited: z.literal(false).optional(),
+		noBuffSlot: z.boolean().optional(), // バフスロットに入らないバフ
 		effects: z.array(
 			z.union([
 				statusUpBuffSchema,
@@ -255,6 +283,10 @@ export const buffSchema = z.union([
 				delayCutBuff,
 				manufactureBuff,
 				techniqueBuff,
+				followAttackBuff,
+				techniqueMotionChangeBuff,
+				preventBuff,
+				damageUpBuff,
 			]),
 		),
 	}),

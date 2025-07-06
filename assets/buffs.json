@@ -6,27 +6,30 @@
 	},
 	{
 		"name": "急所突き",
-		"effects": [{ "type": "others", "subject": "発動時対象に250ダメージ" }],
-		"description": "付与：急所突き 2%"
+		"effects": [
+			{ "type": "followAttack", "subject": "発動時対象に250ダメージ" }
+		],
+		"description": "急所突き 2%"
 	},
 	{
 		"name": "仕込み毒",
 		"effects": [
-			{ "type": "others", "subject": "1秒間隔で固定4ダメージ×4回のDoT" }
+			{ "type": "followAttack", "subject": "1秒間隔で固定4ダメージ×4回のDoT" }
 		],
 		"description": "仕込み毒 20%"
 	},
 	{
 		"name": "灼熱の炎",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [
+			{ "type": "followAttack", "subject": " 1秒間隔で固定8ダメージ×3回のDoT" }
+		],
+		"description": "灼熱の炎 30%"
 	},
 	{
 		"name": "アイス ボール",
 		"unedited": true,
 		"effects": [],
-		"description": ""
+		"description": "アイスボール 25%"
 	},
 	{
 		"name": "衰弱",
@@ -732,152 +735,260 @@
 	},
 	{
 		"name": "ぺったんこ",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [
+			{
+				"type": "techniqueMotionChange",
+				"description": "通常攻撃は餅をつくモーションになる"
+			}
+		],
+		"description": "通常攻撃は餅をつくモーションになる"
 	},
 	{
 		"name": "満腹度軽減 Lv2",
-		"unedited": true,
-		"effects": [],
+		"effects": [
+			{
+				"type": "prevent",
+				"subject": "満腹度減少",
+				"value": 2
+			}
+		],
 		"description": ""
 	},
 	{
 		"name": "アヌビスの力",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [
+			{
+				"type": "statusUp",
+				"subject": "死魔",
+				"value": 10
+			},
+			{
+				"type": "delayCut",
+				"subject": "アイテム使用",
+				"value": 15
+			}
+		],
+		"description": "死の魔法の効果が上昇し、アイテムの使用ディレイ短縮される"
 	},
 	{
 		"name": "黄昏の聖槍",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [{ "type": "damageUp", "subject": "悪魔", "value": 50 }],
+		"description": "悪魔系に与えるダメージが増加する"
 	},
 	{
 		"name": "光線銃",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [
+			{
+				"type": "statusUp",
+				"subject": "MP自然回復",
+				"value": 42
+			},
+			{
+				"type": "technique",
+				"subject": "フォトン レーザー"
+			}
+		],
+		"description": "MPの自然回復量が少し上昇して、専用テクニック『 [フォトン レーザー] 』が使用可能になる"
 	},
 	{
 		"name": "お金の力",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [
+			{
+				"type": "followAttack",
+				"subject": "固定40魔法ダメージ"
+			}
+		],
+		"description": "札束で対象を叩いて精神的なダメージを与える※追加効果が発動する毎に100Gを失う"
 	},
 	{
 		"name": "アルカナの力",
-		"unedited": true,
-		"effects": [],
+		"effects": [
+			{ "type": "recovery", "subject": "MP", "value": 10, "probability": 1 }
+		],
+		"noBuffSlot": true,
 		"description": ""
 	},
 	{
 		"name": "クラッカー",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [
+			{
+				"type": "technique",
+				"subject": "コンフェッティ バースト"
+			}
+		],
+		"description": "専用技『コンフェッティ バースト』が使用可能"
 	},
 	{
 		"name": "ボルケーノ クラッシャー",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [
+			{
+				"type": "followAttack",
+				"subject": "通常攻撃時に爆発を引き起こし周囲にもダメージを与える"
+			}
+		],
+		"description": "通常攻撃時に爆発を引き起こし周囲にもダメージを与える"
 	},
 	{
 		"name": "炭火焼き",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [{ "type": "standMotionChange" }],
+		"description": "七輪で焼くモーション"
 	},
 	{
 		"name": "氷晶",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [
+			{
+				"type": "followAttack",
+				"subject": "通常攻撃時に氷晶ダメージを追加で与える"
+			}
+		],
+		"description": "通常攻撃時に氷晶ダメージを追加で与える"
 	},
 	{
 		"name": "ヘスティア・ナイフ",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [
+			{
+				"type": "technique",
+				"subject": "アルゴ・ウェスタ"
+			}
+		],
+		"description": "専用技「アルゴ・ウェスタ」が使用可能になる"
 	},
 	{
 		"name": "始高・煌月",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [
+			{
+				"type": "followAttack",
+				"subject": "マナを消費して、炎の魔法を放つ"
+			}
+		],
+		"description": "マナを消費して、炎の魔法を放つ"
 	},
 	{
 		"name": "騎心一槍",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [
+			{
+				"type": "delayCut",
+				"subject": "槍",
+				"value": 15
+			},
+			{
+				"type": "statusUp",
+				"subject": "クリティカル率",
+				"value": 20
+			}
+		],
+		"description": "クリティカル率が上昇して槍スキルのディレイが短縮される"
 	},
 	{
 		"name": "妖精王唱",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [
+			{
+				"type": "statusUp",
+				"subject": "魔法与ダメージ率",
+				"value": 10
+			},
+			{
+				"type": "statusUp",
+				"subject": "攻撃範囲増加",
+				"value": 1.5
+			}
+		],
+		"description": "魔法の威力と効果範囲が増加する"
 	},
 	{
 		"name": "闇の加護",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [
+			{
+				"type": "statusUp",
+				"subject": "MP自然回復",
+				"value": 42
+			}
+		],
+		"description": "闇の加護"
 	},
 	{
 		"name": "光の加護",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [
+			{
+				"type": "statusUp",
+				"subject": "HP自然回復",
+				"value": 42
+			}
+		],
+		"description": "光の加護"
 	},
 	{
 		"name": "ドライバー",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [
+			{
+				"type": "technique",
+				"subject": "ドライバーショット"
+			}
+		],
+		"description": "専用技『ドライバーショット』が使用可能になる"
 	},
 	{
 		"name": "モニコンの呪い",
-		"unedited": true,
 		"effects": [],
-		"description": ""
+		"description": "対象をエルモニー女に変身させる"
 	},
 	{
 		"name": "エイシスの青い天使さん",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [
+			{ "type": "others", "subject": "#魔力→攻撃力変換バフ 30%" },
+			{ "type": "damageUp", "subject": "鳥", "value": 100 }
+		],
+		"description": "魔力の30%を攻撃力に加算して、鳥系に対して特攻効果が付与される"
 	},
 	{
 		"name": "銃攻撃ディレイ短縮",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [
+			{
+				"type": "delayCut",
+				"subject": "銃器",
+				"value": 3
+			}
+		],
+		"description": "銃攻撃の発射間隔が短くなる"
 	},
 	{
 		"name": "海神の加護",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [
+			{ "type": "statusUp", "subject": "ST自然回復", "value": 42 },
+			{ "type": "prevent", "subject": "水中呼吸減少", "value": 100 }
+		],
+		"description": "水中で呼吸が可能になり、スタミナの自然回復が上昇する"
 	},
 	{
 		"name": "邪竜の力",
-		"unedited": true,
-		"effects": [],
-		"description": ""
+		"effects": [
+			{ "type": "others", "subject": "#魔力→攻撃力変換バフ 35%" },
+			{ "type": "statusUp", "subject": "暗黒命令", "value": 10 }
+		],
+		"description": "邪竜の力で暗黒命令の効果が上昇し、魔力の35%を攻撃力に加算する"
 	},
 	{
 		"name": "クリティカル率UP A Lv1",
-		"unedited": true,
-		"effects": [],
+		"effects": [
+			{
+				"type": "statusUp",
+				"subject": "クリティカル率",
+				"value": 10,
+				"group": "A1"
+			}
+		],
 		"description": ""
 	},
 	{
 		"name": "クリティカル率UP B Lv1",
-		"unedited": true,
-		"effects": [],
+		"effects": [
+			{
+				"type": "statusUp",
+				"subject": "クリティカル率",
+				"value": 10,
+				"group": "B1"
+			}
+		],
 		"description": ""
 	},
 	{
@@ -9213,7 +9324,7 @@
 				"type": "statusUp",
 				"subject": "攻撃力",
 				"numberType": "percent",
-				"value": 30
+				"value": 3
 			},
 			{
 				"type": "statusUp",
@@ -9291,37 +9402,37 @@
 				"type": "statusUp",
 				"subject": "攻撃力",
 				"numberType": "percent",
-				"value": 30
+				"value": 3
 			},
 			{
 				"type": "statusUp",
 				"subject": "魔力",
 				"numberType": "percent",
-				"value": 30
+				"value": 3
 			},
 			{
 				"type": "statusUp",
 				"subject": "命中",
 				"numberType": "percent",
-				"value": 30
+				"value": 3
 			},
 			{
 				"type": "statusUp",
 				"subject": "回避",
 				"numberType": "percent",
-				"value": 30
+				"value": 3
 			},
 			{
 				"type": "statusUp",
 				"subject": "防御力",
 				"numberType": "percent",
-				"value": 30
+				"value": 3
 			},
 			{
 				"type": "statusUp",
 				"subject": "耐全属性",
 				"numberType": "percent",
-				"value": 30
+				"value": 3
 			}
 		]
 	},
@@ -9352,13 +9463,13 @@
 			{
 				"type": "statusUp",
 				"subject": "攻撃力",
-				"value": 30,
+				"value": 3,
 				"numberType": "percent"
 			},
 			{
 				"type": "statusUp",
 				"subject": "魔力",
-				"value": 30,
+				"value": 3,
 				"numberType": "percent"
 			},
 			{

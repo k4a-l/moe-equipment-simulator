@@ -1,9 +1,8 @@
 import { chromium, type ElementHandle, type Page } from "playwright";
+import type { Effect } from "@/types/effect";
 import {
-	type AllSkill,
 	type DefenceItem,
 	type DefencePart,
-	type Effect,
 	EQUIPMENT_TYPE,
 	type EquipmentType,
 	type Item,
@@ -12,6 +11,7 @@ import {
 	type WeaponItem,
 	type WeaponPart,
 } from "@/types/Item";
+import type { AllSkill } from "@/types/skill";
 import { sleep } from "@/utils/time";
 import { BASE_URL } from "./constants";
 
@@ -94,10 +94,10 @@ export async function getItemInfoByElement<EQ_T extends EquipmentType>(
 	element: ElementHandle<HTMLElement>,
 	eqType: EQ_T,
 ): Promise<Extract<Item, { type: EQ_T }> | undefined> {
-	function getContentByTitle(
+	async function getContentByTitle(
 		title: string,
-	): Promise<ElementHandle<HTMLElement | SVGElement> | null> {
-		return titleElement.$(`dt:has-text("${title}") + dd`);
+	): Promise<ElementHandle<HTMLElement | SVGElement> | undefined | null> {
+		return await titleElement?.$(`dt:has-text("${title}") + dd`);
 	}
 
 	// 子要素が3つあるので、それぞれを抽出
@@ -155,7 +155,7 @@ export async function getItemInfoByElement<EQ_T extends EquipmentType>(
 	// 付加効果
 	const buffElement = await getContentByTitle("付加効果");
 	// <br>タグの前部分だけ取得
-	const _buffText = (await buffElement?.innerHTML())?.split("<br>")[0].trim();
+	const _buffText = (await buffElement?.innerHTML())?.split("<br>")[0]?.trim();
 	const buffText = _buffText?.trim() || "";
 
 	// 追加効果
