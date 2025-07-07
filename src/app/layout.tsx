@@ -2,14 +2,11 @@ import type { Metadata } from "next";
 import { NavigationTab } from "@/features/route/NavigationTab";
 import "./globals.css";
 
-import { QueryClient } from "@tanstack/react-query";
 import Provider from "@/features/app/Provider";
 
 export const metadata: Metadata = {
 	title: "MoE 装備シミュレーター | MoEq",
 };
-
-const queryClient = new QueryClient();
 
 export default function RootLayout({
 	children,

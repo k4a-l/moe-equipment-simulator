@@ -48,7 +48,7 @@ export function Search({
 	return (
 		<div className="flex gap-2 flex-col">
 			{searchConditionsResponse.isLoading ||
-			searchConditionsResponse.isValidating ? (
+			searchConditionsResponse.isFetching ? (
 				<LoaderIcon size="1em" className="animate-spin " />
 			) : searchConditionsResponse.error ? (
 				<p className="text-red-500">
