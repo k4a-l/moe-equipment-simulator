@@ -13,6 +13,8 @@ import {
 	ModuleRegistry,
 } from "ag-grid-community";
 import { LoaderIcon, MousePointerClickIcon } from "lucide-react";
+import { EFFECT_SUBJECTS } from "moe-equipment-assets/types/effect";
+import type { ItemWithBuff } from "moe-equipment-assets/types/item";
 import { type Dispatch, type SetStateAction, useMemo } from "react";
 import type z from "zod";
 import { Button } from "@/components/ui/button";
@@ -32,8 +34,6 @@ import {
 	TableRow,
 } from "@/components/ui/table";
 import { ItemDetail } from "@/features/equip-sim/Row";
-import { EFFECT_SUBJECTS } from "@/types/effect";
-import type { ItemWithBuff } from "@/types/Item";
 import type { searchConditionQuerySchema } from "../searchCondition/type";
 import { useSearchResultQuery } from "./useSearchResultQuery";
 

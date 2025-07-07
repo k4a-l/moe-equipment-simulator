@@ -1,6 +1,6 @@
 import type { FrourioSpec } from "@frourio/next";
+import { effectSubjectSchema } from "moe-equipment-assets/types/effect";
 import { z } from "zod";
-import { effectSubjectSchema } from "@/types/effect";
 
 export const frourioSpec = {
 	get: {

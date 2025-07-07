@@ -2,6 +2,7 @@
 
 import { produce } from "immer";
 import { LoaderIcon, PlusIcon } from "lucide-react";
+import type { ItemWithBuff } from "moe-equipment-assets/types/item";
 import { type Dispatch, useCallback, useMemo, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -12,7 +13,6 @@ import {
 	SelectTrigger,
 	SelectValue,
 } from "@/components/ui/select";
-import type { ItemWithBuff } from "@/types/Item";
 import { setStateAction, useSessionStorageWithValidation } from "@/utils/hooks";
 import { createEquipSimKey, EquipSimByCharacter } from "./EquipSimByCharacter";
 import {

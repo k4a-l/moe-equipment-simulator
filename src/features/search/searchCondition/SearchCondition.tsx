@@ -1,4 +1,5 @@
 import { produce } from "immer";
+import type { EffectSubjectType } from "moe-equipment-assets/types/effect";
 import { memo, type SetStateAction, useMemo, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -10,7 +11,6 @@ import {
 	SelectTrigger,
 	SelectValue,
 } from "@/components/ui/select";
-import type { EffectSubjectType } from "@/types/effect";
 import { type SearchConditionType, searchConditionSchema } from "./type";
 
 export const SearchCondition = memo(

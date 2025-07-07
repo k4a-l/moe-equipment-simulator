@@ -1,6 +1,9 @@
-import { STATUS_UP_CALC_METHODS } from "@/types/buff";
-import type { Effect, EffectSubjectType } from "@/types/effect";
-import type { ItemWithBuff } from "@/types/Item";
+import { STATUS_UP_CALC_METHODS } from "moe-equipment-assets/types/buff";
+import type {
+	Effect,
+	EffectSubjectType,
+} from "moe-equipment-assets/types/effect";
+import type { ItemWithBuff } from "moe-equipment-assets/types/item";
 
 export const flattenEffectOfItem = (item: ItemWithBuff): Effect[] => {
 	return [

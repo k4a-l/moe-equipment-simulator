@@ -1,11 +1,11 @@
-import type { StrictOmit } from "ts-essentials";
-import z from "zod";
 import {
 	defencePartsSchema,
 	equipmentTypeSchema,
 	itemSchemaWithBuff,
 	weaponPartsSchema,
-} from "@/types/Item";
+} from "moe-equipment-assets/types/item";
+import type { StrictOmit } from "ts-essentials";
+import z from "zod";
 import { strictFromEntries } from "@/utils/objects";
 
 export type WithGroup<T> = T & {

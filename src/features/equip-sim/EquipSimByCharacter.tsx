@@ -17,6 +17,18 @@ import {
 	ShirtIcon,
 	SwordIcon,
 } from "lucide-react";
+import type { Buff } from "moe-equipment-assets/types/buff";
+import {
+	EFFECT_SUBJECTS,
+	type EffectSubjectType,
+} from "moe-equipment-assets/types/effect";
+import {
+	DEFENCE_PARTS,
+	type DefencePart,
+	type ItemWithBuff,
+	WEAPON_PARTS,
+	type WeaponPart,
+} from "moe-equipment-assets/types/item";
 import {
 	type ComponentProps,
 	type Dispatch,
@@ -39,15 +51,6 @@ import {
 	TableHeader,
 	TableRow,
 } from "@/components/ui/table";
-import type { Buff } from "@/types/buff";
-import { EFFECT_SUBJECTS, type EffectSubjectType } from "@/types/effect";
-import {
-	DEFENCE_PARTS,
-	type DefencePart,
-	type ItemWithBuff,
-	WEAPON_PARTS,
-	type WeaponPart,
-} from "@/types/Item";
 import { strictEntries, strictFromEntries, strictKeys } from "@/utils/objects";
 import { joinEffectOfItem } from "../Item/util";
 import { Search } from "../search/Search";

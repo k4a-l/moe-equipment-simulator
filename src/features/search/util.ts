@@ -1,4 +1,4 @@
-import type { ItemWithBuff } from "@/types/Item";
+import type { ItemWithBuff } from "moe-equipment-assets/types/item";
 import { getEffect, joinEffectOfItem } from "../Item/util";
 import type { SearchConditionType } from "./searchCondition/type";
 

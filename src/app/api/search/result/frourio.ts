@@ -1,7 +1,7 @@
 import type { FrourioSpec } from "@frourio/next";
+import { itemSchemaWithBuff } from "moe-equipment-assets/types/item";
 import { z } from "zod";
 import { searchConditionQuerySchemaWithPage } from "@/features/search/searchCondition/type";
-import { itemSchemaWithBuff } from "@/types/Item";
 
 export const frourioSpec = {
 	post: {

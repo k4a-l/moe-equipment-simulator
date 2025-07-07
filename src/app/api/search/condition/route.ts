@@ -1,5 +1,8 @@
+import {
+	EFFECT_SUBJECTS,
+	type EffectSubjectType,
+} from "moe-equipment-assets/types/effect";
 import { injectBuff } from "@/features/dataProccess/buff";
-import { EFFECT_SUBJECTS, type EffectSubjectType } from "@/types/effect";
 import { getLocalData } from "../../getLocalData";
 import { createRoute } from "./frourio.server";
 

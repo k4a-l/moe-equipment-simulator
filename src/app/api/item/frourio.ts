@@ -1,6 +1,6 @@
 import type { FrourioSpec } from "@frourio/next";
+import { itemSchemaWithBuff } from "moe-equipment-assets/types/item";
 import { z } from "zod";
-import { itemSchemaWithBuff } from "@/types/Item";
 
 export const frourioSpec = {
 	post: {

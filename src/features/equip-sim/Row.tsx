@@ -1,6 +1,7 @@
 import type { CellContext } from "@tanstack/react-table";
 import { produce } from "immer";
 import { BookTextIcon } from "lucide-react";
+import type { InjectBuff, Item } from "moe-equipment-assets/types/item";
 import { memo } from "react";
 import { Button } from "@/components/ui/button";
 import {
@@ -11,7 +12,6 @@ import {
 	DialogTrigger,
 } from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
-import type { InjectBuff, Item } from "@/types/Item";
 import type { Data } from "./EquipSimByCharacter";
 import type { ItemOfPart } from "./type";
 

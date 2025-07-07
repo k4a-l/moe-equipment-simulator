@@ -1,14 +1,14 @@
-import z from "zod";
-import { buffSchema } from "@/types/buff";
+import buffsJson from "moe-equipment-assets/assets/buffs.json";
+import defencesJson from "moe-equipment-assets/assets/defences.json";
+import shieldsJson from "moe-equipment-assets/assets/shields.json";
+import weaponsJson from "moe-equipment-assets/assets/weapons.json";
+import { buffSchema } from "moe-equipment-assets/types/buff";
 import {
 	defenceItemSchema,
 	shieldItemSchema,
 	weaponItemSchema,
-} from "@/types/Item";
-import buffsJson from "/assets/buffs.json";
-import defencesJson from "/assets/defences.json";
-import shieldsJson from "/assets/shields.json";
-import weaponsJson from "/assets/weapons.json";
+} from "moe-equipment-assets/types/item";
+import z from "zod";
 
 const SHIELD_ITEMS = z.array(shieldItemSchema);
 const r = SHIELD_ITEMS.safeParse(shieldsJson);

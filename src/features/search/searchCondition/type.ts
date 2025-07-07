@@ -1,5 +1,5 @@
+import { effectSubjectSchema } from "moe-equipment-assets/types/effect";
 import { object, z } from "zod";
-import { effectSubjectSchema } from "@/types/effect";
 import { strictKeys } from "@/utils/objects";
 
 const searchConditionSchemaBase = z.object({

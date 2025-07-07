@@ -1,4 +1,5 @@
 import path from "node:path";
+import type { ItemWithBuff } from "moe-equipment-assets/types/item";
 import { getFileList } from "@/features/api/getFile";
 import { injectBuff } from "@/features/dataProccess/buff";
 import { getEffect, joinEffectOfItem } from "@/features/Item/util";
@@ -8,7 +9,6 @@ import {
 	searchByOmitWords,
 	searchByParts,
 } from "@/features/search/util";
-import type { ItemWithBuff } from "@/types/Item";
 import { getLocalData } from "../../getLocalData";
 import { createRoute } from "./frourio.server";
 
