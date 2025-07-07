@@ -340,7 +340,7 @@ export function EquipSimByCharacter({
 												);
 												const item = part.items[itemIndex];
 
-												if (itemIndex === 1 || !item) {
+												if (itemIndex === -1 || !item) {
 													part.items.push({
 														...selectedItem,
 														rowId: crypto.randomUUID(),
