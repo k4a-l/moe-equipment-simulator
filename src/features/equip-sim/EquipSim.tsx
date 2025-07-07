@@ -126,18 +126,20 @@ const ItemInject = ({
 			_setCharacters((prev) => {
 				const newCharacters = setStateAction(newCharacterAction, prev);
 
-				saveCharacter((): SavedCharacter[] => {
-					return newCharacters.map((c) => {
-						const savedParts: SavedItemOfParts[] = c.parts.map((part) => ({
-							...part,
-							items: part.items.map((item) => ({
-								id: item.id,
-								group: item.group,
-							})),
-						}));
-						return { ...c, parts: savedParts };
+				setTimeout(() => {
+					saveCharacter((): SavedCharacter[] => {
+						return newCharacters.map((c) => {
+							const savedParts: SavedItemOfParts[] = c.parts.map((part) => ({
+								...part,
+								items: part.items.map((item) => ({
+									id: item.id,
+									group: item.group,
+								})),
+							}));
+							return { ...c, parts: savedParts };
+						});
 					});
-				});
+				}, 0);
 
 				return newCharacters;
 			});
