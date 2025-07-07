@@ -693,15 +693,17 @@ export function EquipSimByCharacter({
 					<DialogContent
 						onEscapeKeyDown={(e) => e.preventDefault()}
 						onInteractOutside={(e) => e.preventDefault()}
-						className="!w-[90vw] !h-[90vh] max-w-full! max-h-full! py-8"
+						className="!w-[98vw] !h-[90vh] max-w-[98vw]! max-h-full! py-8 overflow-auto p-0"
 					>
-						<DialogHeader className="h-0 hidden">
-							<DialogTitle></DialogTitle>
-						</DialogHeader>
-						<Search
-							staticPart={selectPart.part}
-							onSelect={selectPart.onSelect}
-						/>
+						<div className="py-8 px-4 flex min-w-0 w-full">
+							<DialogHeader className="h-0 hidden">
+								<DialogTitle></DialogTitle>
+							</DialogHeader>
+							<Search
+								staticPart={selectPart.part}
+								onSelect={selectPart.onSelect}
+							/>
+						</div>
 					</DialogContent>
 				</Dialog>
 			)}

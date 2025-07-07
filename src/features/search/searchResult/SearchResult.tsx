@@ -218,7 +218,7 @@ function SearchResult({
 	});
 
 	return (
-		<div className="flex flex-col gap-2">
+		<div className="flex flex-col gap-2 min-w-0">
 			<div className="border rounded-md">
 				<Table className="compact-table grid-table bg-white">
 					<TableHeader>
@@ -253,7 +253,7 @@ function SearchResult({
 						))}
 					</TableBody>
 				</Table>
-				<div className="flex justify-center w-full border-t p-1 bg-white">
+				<div className="flex justify-center w-full border-t p-1 bg-white max-w-full">
 					<Pagination>
 						<PaginationContent>
 							<PaginationItem>

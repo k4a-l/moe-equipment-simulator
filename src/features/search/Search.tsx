@@ -46,7 +46,7 @@ export function Search({
 	);
 
 	return (
-		<div className="flex gap-2 flex-col">
+		<div className="flex gap-2 flex-col w-full min-w-0">
 			{searchConditionsResponse.isLoading ||
 			searchConditionsResponse.isFetching ? (
 				<LoaderIcon size="1em" className="animate-spin " />
