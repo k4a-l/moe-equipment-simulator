@@ -44,6 +44,24 @@ export default function RootLayout({
 				/>
 				<meta name="msapplication-TileColor" content="#2b5797" />
 				<meta name="theme-color" content="#ffffff" />
+				{/* OGP */}
+				<meta property="og:type" content="website" />
+				<meta property="og:title" content="MoEq - MoE 装備シミュレーター" />
+				<meta
+					property="og:description"
+					content="Master of Epicの装備シミュレーターです。任意のステータスでの検索も可能です。"
+				/>
+				<meta
+					property="og:url"
+					content="https://moe-equipment-simulator.k4a.me"
+				/>
+				<meta property="og:site_name" content="MoEq - MoE 装備シミュレーター" />
+				<meta
+					property="og:image"
+					content="https://moe-equipment-simulator.k4a.me/favicon/apple-touch-icon.png"
+				/>
+				{/* Twitter */}
+				<meta name="twitter:card" content="summary" />
 			</head>
 			<Provider>
 				<body className="min-h-screen bg-gray-50 flex justify-center p-2">
