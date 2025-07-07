@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import { NavigationTab } from "@/features/route/NavigationTab";
 import "./globals.css";
 
+import { Terminal } from "lucide-react";
+import Link from "next/link";
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import Provider from "@/features/app/Provider";
 
 export const metadata: Metadata = {
@@ -42,18 +45,47 @@ export default function RootLayout({
 				<meta name="msapplication-TileColor" content="#2b5797" />
 				<meta name="theme-color" content="#ffffff" />
 			</head>
-			<body>
-				<Provider>
-					<div className="flex justify-center p-2 bg-gray-50 min-h-screen">
-						<div className="flex flex-col p-2 max-w-11/12 w-full">
-							<div className="flex gap-2 w-auto ">
-								<NavigationTab />
-							</div>
-							<div className="pt-2">{children}</div>
+			<Provider>
+				<body className="min-h-screen bg-gray-50 flex justify-center p-2">
+					<div className="flex flex-col p-2 max-w-11/12 w-full grow">
+						<div className="flex gap-2 w-auto ">
+							<NavigationTab />
+						</div>
+						<div className="pt-2 grow">{children}</div>
+						<div className="mt-10">
+							<Alert variant="default">
+								<Terminal />
+								<AlertTitle> 2025年07月現在このサイトはβ版です。</AlertTitle>
+								<AlertDescription>
+									告知なしの仕様変更、保存データの削除が行われる可能性があります。
+									<ul>
+										<li>
+											<Link
+												href="https://github.com/k4a-l/moe-equipment-simulator/issues"
+												target="_blank"
+												rel="noopener noreferrer"
+												className="underline hover:text-blue-600"
+											>
+												バグ報告、要望などはこちらから
+											</Link>
+										</li>
+										<li>
+											<Link
+												href="https://github.com/k4a-l/moe-equipment-assets/issues/1"
+												target="_blank"
+												rel="noopener noreferrer"
+												className="underline hover:text-blue-600"
+											>
+												バフ情報入力の協力募集中
+											</Link>
+										</li>
+									</ul>
+								</AlertDescription>
+							</Alert>
 						</div>
 					</div>
-				</Provider>
-			</body>
+				</body>
+			</Provider>
 		</html>
 	);
 }

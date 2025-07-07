@@ -218,7 +218,7 @@ function SearchResult({
 	});
 
 	return (
-		<div style={{ height: "800px" }}>
+		<div className="flex flex-col gap-2">
 			<div className="border rounded-md">
 				<Table className="compact-table grid-table bg-white">
 					<TableHeader>
