@@ -546,15 +546,23 @@ export function EquipSimByCharacter({
 					];
 				}
 
-				return items.map((item): Data => {
-					return {
-						type: "part",
-						部位: PART.value,
-						group: item.group,
-						rowId: item.rowId,
-						...(item.id ? { item: item } : {}),
-					};
-				});
+				return items
+					.map((item): Data => {
+						return {
+							type: "part",
+							部位: PART.value,
+							group: item.group,
+							rowId: item.rowId,
+							...(item.id ? { item: item } : {}),
+						};
+					})
+					.sort((a, b) => {
+						if (a.type !== "part" || b.type !== "part") return 0;
+						if (a.group === undefined && b.group === undefined) return 0;
+						if (a.group === undefined) return -1;
+						if (b.group === undefined) return 1;
+						return a.group - b.group;
+					});
 			},
 		);
 
