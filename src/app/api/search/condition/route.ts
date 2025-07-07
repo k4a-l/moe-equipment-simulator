@@ -29,6 +29,15 @@ const effectsSubjects: EffectSubjectType[] = [
 
 export const { GET } = createRoute({
 	get: async () => {
-		return { status: 200, body: { effectsSubjects } };
+		return {
+			status: 200,
+			body: {
+				effectsSubjects,
+				buffImplementation: {
+					all: buffs.length,
+					implemented: buffs.filter((b) => !b.unedited).length,
+				},
+			},
+		};
 	},
 });

@@ -6,7 +6,13 @@ export const frourioSpec = {
 	get: {
 		res: {
 			200: {
-				body: z.object({ effectsSubjects: z.array(effectSubjectSchema) }),
+				body: z.object({
+					effectsSubjects: z.array(effectSubjectSchema),
+					buffImplementation: z.object({
+						all: z.number(),
+						implemented: z.number(),
+					}),
+				}),
 			},
 		},
 	},
