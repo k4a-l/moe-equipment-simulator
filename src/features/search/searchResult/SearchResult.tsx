@@ -17,6 +17,7 @@ import { EFFECT_SUBJECTS } from "moe-equipment-assets/types/effect";
 import type { ItemWithBuff } from "moe-equipment-assets/types/item";
 import { type Dispatch, type SetStateAction, useMemo } from "react";
 import type z from "zod";
+import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import {
 	Pagination,
@@ -156,6 +157,27 @@ function SearchResult({
 
 	const columns = useMemo(
 		() => [
+			...(!onSelect
+				? [
+						columnHelper.accessor("part", {
+							cell: (info) => {
+								const item = info.row.original.item;
+								return (
+									<div className="flex gap-1">
+										{(item.type === "weapons" ? item.parts : [item.part]).map(
+											(p) => (
+												<Badge key={p} variant="secondary">
+													{p}
+												</Badge>
+											),
+										)}
+									</div>
+								);
+							},
+							header: () => <span>部位</span>,
+						}),
+					]
+				: []),
 			columnHelper.accessor("name", {
 				cell: (info) => {
 					return (
@@ -181,6 +203,9 @@ function SearchResult({
 					);
 				},
 				header: () => <span>アイテム名</span>,
+				meta: {
+					getCellContext: () => ({ className: "text-center" }),
+				},
 			}),
 			...searchResultsSubjects.map((subject) =>
 				columnHelper.accessor(subject, {
@@ -188,6 +213,9 @@ function SearchResult({
 						return info.getValue();
 					},
 					header: () => <span>{subject}</span>,
+					meta: {
+						getCellContext: () => ({ className: "text-center" }),
+					},
 				}),
 			),
 			columnHelper.accessor("詳細", {
@@ -200,6 +228,9 @@ function SearchResult({
 				},
 				maxSize: 10,
 				size: 10,
+				meta: {
+					getCellContext: () => ({ className: "text-center" }),
+				},
 			}),
 		],
 		[searchResultsSubjects, isLoading, searchResults.find, onSelect],
@@ -243,9 +274,10 @@ function SearchResult({
 								{row.getVisibleCells().map((cell) => (
 									<TableCell
 										key={cell.id}
-										className={cell.column.id === "name" ? "" : "text-center"}
+										{...cell.column.columnDef.meta?.getCellContext?.(
+											cell.getContext(),
+										)}
 									>
-										{/* Render the cell content using the flexRender function */}
 										{flexRender(cell.column.columnDef.cell, cell.getContext())}
 									</TableCell>
 								))}
