@@ -109,7 +109,7 @@ function SearchResult({
 						effects[e.subject] = [];
 					}
 					effects[e.subject]?.push({
-						value: e.value,
+						value: e.value === "未検証" ? Number.NaN : e.value,
 						method: e.numberType === "percent" ? "multiply" : "add",
 					});
 				});

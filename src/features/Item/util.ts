@@ -18,7 +18,7 @@ export const flattenEffectOfItem = (item: ItemWithBuff): Effect[] => {
 				return [
 					{
 						subject: e.subject,
-						value: e.value,
+						value: e.value === "未検証" ? 0 : e.value,
 						numberType: e.numberType,
 					} as const,
 				];
