@@ -6,7 +6,7 @@ import {
 } from "moe-equipment-assets/types/item";
 import type { StrictOmit } from "ts-essentials";
 import z from "zod";
-import { strictFromEntries } from "@/utils/objects";
+import { strictFromEntries } from "@/lib/objects";
 
 export type WithGroup<T> = T & {
 	group?: number;

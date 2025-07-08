@@ -51,7 +51,7 @@ import {
 	TableHeader,
 	TableRow,
 } from "@/components/ui/table";
-import { strictEntries, strictFromEntries, strictKeys } from "@/utils/objects";
+import { strictEntries, strictFromEntries, strictKeys } from "@/lib/objects";
 import { joinEffectOfItem } from "../Item/util";
 import { Search } from "../search/Search";
 import { GroupInput, ItemDetail } from "./Row";

@@ -1,6 +1,6 @@
 import { effectSubjectSchema } from "moe-equipment-assets/types/effect";
 import { object, z } from "zod";
-import { strictKeys } from "@/utils/objects";
+import { strictKeys } from "@/lib/objects";
 
 const searchConditionSchemaBase = z.object({
 	uuid: z.string(),

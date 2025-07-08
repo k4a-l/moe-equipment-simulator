@@ -13,7 +13,7 @@ import {
 	SelectTrigger,
 	SelectValue,
 } from "@/components/ui/select";
-import { setStateAction, useSessionStorageWithValidation } from "@/utils/hooks";
+import { setStateAction, useSessionStorageWithValidation } from "@/lib/hooks";
 import { createEquipSimKey, EquipSimByCharacter } from "./EquipSimByCharacter";
 import {
 	type Character,
