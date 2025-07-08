@@ -76,7 +76,7 @@ export default function RootLayout({
 								<AlertTitle> 2025年07月現在このサイトはβ版です。</AlertTitle>
 								<AlertDescription>
 									告知なしの仕様変更、保存データの削除が行われる可能性があります。
-									<ul>
+									<ul className="list-disc pl-5">
 										<li>
 											<Link
 												href="https://github.com/k4a-l/moe-equipment-simulator/issues"
@@ -95,6 +95,57 @@ export default function RootLayout({
 												className="underline hover:text-blue-600"
 											>
 												バフ情報入力の協力募集中
+											</Link>
+										</li>
+									</ul>
+									ご支援（アップデートのモチベになります）
+									<ul className="list-disc pl-5">
+										<li>
+											<Link
+												href="https://coff.ee/kasahala"
+												target="_blank"
+												rel="noopener noreferrer"
+												className="underline hover:text-blue-600"
+											>
+												{/** biome-ignore lint/performance/noImgElement: false */}
+												<img
+													src="/icons/buy-me-a-coffee-seeklogo.svg"
+													alt="Buy me a coffee"
+													className="inline-block h-5 w-5 align-middle mr-1"
+												/>
+												By me a coffee
+											</Link>
+										</li>
+										<li>
+											<Link
+												href="https://paypal.me/k4al"
+												target="_blank"
+												rel="noopener noreferrer"
+												className="underline hover:text-blue-600"
+											>
+												{/** biome-ignore lint/performance/noImgElement: false */}
+												<img
+													src="/icons//paypal.svg"
+													alt="Paypal"
+													className="inline-block h-5 w-5 align-middle mr-1"
+												/>
+												Paypal
+											</Link>
+										</li>
+										<li>
+											<Link
+												href="https://ofuse.me/k4al"
+												target="_blank"
+												rel="noopener noreferrer"
+												className="underline hover:text-blue-600"
+											>
+												{/** biome-ignore lint/performance/noImgElement: false */}
+												<img
+													src="/icons/ofuse.svg"
+													alt="Ofuse"
+													className="inline-block h-5 w-5 align-middle mr-1"
+												/>
+												OFUSE
 											</Link>
 										</li>
 									</ul>
