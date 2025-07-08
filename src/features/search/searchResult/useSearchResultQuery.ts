@@ -7,6 +7,7 @@ import { useRef } from "react";
 import type z from "zod";
 import type { frourioSpec } from "@/app/api/search/result/frourio";
 import { apiUrl } from "@/features/api/apiClient";
+import { fetchJson } from "@/lib/fetchWithErrorHandling";
 import type { searchConditionQuerySchemaWithPage } from "../searchCondition/type";
 
 const key = "search/result";
@@ -19,26 +20,23 @@ export const useSearchResultQuery = (
 
 	// Queries
 	const response = useQuery<
-		typeof query,
-		DefaultError,
-		z.infer<(typeof frourioSpec.post.res)["200"]["body"]>
+		z.infer<(typeof frourioSpec.post.res)["200"]["body"]>,
+		DefaultError
 	>({
 		queryKey: [key, query],
 		queryFn: () =>
-			fetch(`${apiUrl}/${key}`, {
-				body: JSON.stringify(query),
-				headers: {
-					"Content-Type": "application/json",
+			fetchJson<z.infer<(typeof frourioSpec.post.res)["200"]["body"]>>(
+				`${apiUrl}/${key}`,
+				{
+					body: JSON.stringify(query),
+					headers: {
+						"Content-Type": "application/json",
+					},
+					method: "POST",
 				},
-				method: "POST",
-			})
-				.then((res) => {
-					return res.json();
-				})
-				.finally(() => {
-					previousQuery.current = query;
-				}),
-		// @ts-expect-error
+			).finally(() => {
+				previousQuery.current = query;
+			}),
 		placeholderData: () => {
 			const c = queryClient.getQueryData([key, previousQuery.current]);
 			return c as z.infer<(typeof frourioSpec.post.res)["200"]["body"]>;
