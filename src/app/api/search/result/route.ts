@@ -42,15 +42,15 @@ export const { POST } = createRoute({
 		});
 
 		const sortedResult = result
-			.filter((item) => {
-				if (!sort?.by) return true;
-				const value = getEffect(joinEffectOfItem(item), {
-					subject: sort.by,
-					numberType: sort.isPercentNumber ? "percent" : undefined,
-				})?.value;
-				if (value === undefined) return false;
-				return true;
-			})
+			// .filter((item) => {
+			// 	if (!sort?.by) return true;
+			// 	const value = getEffect(joinEffectOfItem(item), {
+			// 		subject: sort.by,
+			// 		numberType: sort.isPercentNumber ? "percent" : undefined,
+			// 	})?.value;
+			// 	if (value === undefined) return false;
+			// 	return true;
+			// })
 			.sort((a, b) => {
 				if (!sort?.by) return 0;
 
